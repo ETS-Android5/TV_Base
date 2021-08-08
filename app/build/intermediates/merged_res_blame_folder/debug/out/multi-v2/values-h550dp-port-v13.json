@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h550dp-port-v13/values-h550dp-port-v13.xml",
+            "map": [
+                {
+                    "source": "/home/fernanda/.gradle/caches/transforms-2/files-2.1/97ed20c4805122cb37926be8f7f55040/material-1.4.0/res/values-h550dp-port-v13/values-h550dp-port-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "76",
+                        "endOffsets": "127"
+                    }
+                }
+            ]
+        }
+    ]
+}

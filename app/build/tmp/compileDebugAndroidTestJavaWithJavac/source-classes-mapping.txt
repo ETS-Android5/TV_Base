@@ -1,0 +1,4 @@
+com/a7apps/tvbase/test/BuildConfig.java
+ com.a7apps.tvbase.test.BuildConfig
+com/a7apps/tvbase/ExampleInstrumentedTest.java
+ com.a7apps.tvbase.ExampleInstrumentedTest

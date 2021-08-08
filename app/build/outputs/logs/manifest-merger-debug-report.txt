@@ -1,0 +1,257 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:2:1-26:12
+MERGED from [androidx.navigation:navigation-ui:2.1.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/e9af39e5884c074b2ed3089cfd7e18dc/navigation-ui-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.4.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/97ed20c4805122cb37926be8f7f55040/material-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/fernanda/.gradle/caches/transforms-2/files-2.1/53429fbc83e528985386a3702907817d/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/3a4961e1e6df2f677c58b51babdba8ce/appcompat-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/10247ff56cfefbfcb30180066fb4239e/jetified-glide-4.12.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.volley:volley:1.2.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/51af6846157b8f63f8e3f8c7c9e47595/jetified-volley-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/8689124caa1430799f02cb459f46e2da/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/47dae13cb069542c0876568532f15a2d/recyclerview-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/cdd4a60bef6c0f8a7e620ac5295b11ad/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment:2.1.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/a4c1163059563220eb34d40aba81f045/navigation-fragment-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/6a14257fefc2dda3e832339c63cf5061/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.fragment:fragment:1.3.6] /home/fernanda/.gradle/caches/transforms-2/files-2.1/245d5b18118e6b5c1bf36e9adda4adaf/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.1.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/69204c9438186052bc18f99e30d6c9ba/navigation-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /home/fernanda/.gradle/caches/transforms-2/files-2.1/01d3dfc95a2231e940ca276123dd7284/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/8d5d9afb0739d0e0bb5815febfd23e9b/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/95cbcdd264a2eccacc08be754a9be679/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/63d693d6393609dd312217953d27b75c/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/52af9bb131e0a20092265842e485c08f/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/291b0dc121fa3d21c4d609cf60748a6c/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/af4ce0c025385f4d674c3fbc90c74bbd/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/dfb7ac91904b3c5a9d1a67aa3c159bd7/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/a547992bccb754fe8c5281f35b02b089/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/d643442c4ffc886106a5522b382be213/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/1bb65d76bc4c53e4fd0fa77c28d107ec/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/da24100bb264bf73e5dde9fdbea460b1/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/62ecce35880984b0c138ce475dc962aa/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/ad21947eec5ee398f5c283b0c4da9784/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/54a6463602e092e46e6a3bac5a75d6f2/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/82ae702ce6452c85bbcde570c36bca5b/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/d88be84dffbca90874262a60190a4c2c/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common:2.1.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/bc6cf0ac4c9abbf0329bc0fa7248212f/navigation-common-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.5.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/e4e60fa01183f8bb008117a464bbdf63/core-1.5.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/3d3b0751e6f78ff8c1df2664b2714ed8/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/6b29ae8b343c6e40ef5b3af3ef8ffd9f/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/6efa611ead098d00fb51ded6becaa692/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/2d25f95281113cadc6574ee6a3fb22e3/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/c0069380fc4c66ec832f68ba8d396e7e/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/c5e24b687d8535e2e6f966021bb5a6f1/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/1e3cc287f6f9aff9dd7d87c943f1b053/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/875b092885b7287026f6ad15296f163d/jetified-gifdecoder-4.12.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/d5b86639e8417a4990a8aae1cab5c740/exifinterface-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/9bc35db89de5b085067c1324b8bfbbcf/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/7574a2bacc64e6b5d351698a89f42523/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/eeb46425476175758829c070e05af108/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/5de14670e80ac28f28052413a4a35127/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/ece19be2784936bb046fe37356a8107f/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/b4e5313905416d8123f632a0f396ac33/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/0c170a5bf61b9b60ba30f013c401aa8b/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/871eada208e4b1d3c3f2e0d7eeb7730e/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/763fff8338f14250d307a24463e7c6bd/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/4a7e3a6a5b12d48699851e0cd7ae034e/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/a4934bcfce5a642fea31bbad1cb3e0e2/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:2:1-26:12
+	package
+		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:3:11-38
+		INJECTED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml
+		INJECTED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml
+		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:2:1-26:12
+		INJECTED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml
+		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:2:1-26:12
+		INJECTED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:7:5-24:19
+MERGED from [com.google.android.material:material:1.4.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/97ed20c4805122cb37926be8f7f55040/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/97ed20c4805122cb37926be8f7f55040/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/fernanda/.gradle/caches/transforms-2/files-2.1/53429fbc83e528985386a3702907817d/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/fernanda/.gradle/caches/transforms-2/files-2.1/53429fbc83e528985386a3702907817d/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/10247ff56cfefbfcb30180066fb4239e/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/10247ff56cfefbfcb30180066fb4239e/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/6a14257fefc2dda3e832339c63cf5061/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/6a14257fefc2dda3e832339c63cf5061/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.core:core:1.5.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/e4e60fa01183f8bb008117a464bbdf63/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/e4e60fa01183f8bb008117a464bbdf63/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/2d25f95281113cadc6574ee6a3fb22e3/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/2d25f95281113cadc6574ee6a3fb22e3/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/875b092885b7287026f6ad15296f163d/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/875b092885b7287026f6ad15296f163d/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/ece19be2784936bb046fe37356a8107f/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/ece19be2784936bb046fe37356a8107f/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/e4e60fa01183f8bb008117a464bbdf63/core-1.5.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:13:13-39
+	android:label
+		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:11:13-45
+	android:hardwareAccelerated
+		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:9:13-47
+	android:roundIcon
+		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:12:13-58
+	android:icon
+		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:10:13-47
+	android:allowBackup
+		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:8:13-39
+	android:theme
+		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:14:13-44
+activity#com.a7apps.tvbase.MainActivity
+ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:15:9-23:20
+	android:label
+		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:17:17-49
+	android:name
+		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:16:17-45
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:19:17-68
+	android:name
+		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:21:17-76
+	android:name
+		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:21:27-74
+uses-sdk
+INJECTED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml
+INJECTED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml
+MERGED from [androidx.navigation:navigation-ui:2.1.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/e9af39e5884c074b2ed3089cfd7e18dc/navigation-ui-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.1.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/e9af39e5884c074b2ed3089cfd7e18dc/navigation-ui-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.4.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/97ed20c4805122cb37926be8f7f55040/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/97ed20c4805122cb37926be8f7f55040/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/fernanda/.gradle/caches/transforms-2/files-2.1/53429fbc83e528985386a3702907817d/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/fernanda/.gradle/caches/transforms-2/files-2.1/53429fbc83e528985386a3702907817d/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/3a4961e1e6df2f677c58b51babdba8ce/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/3a4961e1e6df2f677c58b51babdba8ce/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/10247ff56cfefbfcb30180066fb4239e/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/10247ff56cfefbfcb30180066fb4239e/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.volley:volley:1.2.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/51af6846157b8f63f8e3f8c7c9e47595/jetified-volley-1.2.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.volley:volley:1.2.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/51af6846157b8f63f8e3f8c7c9e47595/jetified-volley-1.2.0/AndroidManifest.xml:5:5-43
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/8689124caa1430799f02cb459f46e2da/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/8689124caa1430799f02cb459f46e2da/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/47dae13cb069542c0876568532f15a2d/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/47dae13cb069542c0876568532f15a2d/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/cdd4a60bef6c0f8a7e620ac5295b11ad/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/cdd4a60bef6c0f8a7e620ac5295b11ad/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.1.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/a4c1163059563220eb34d40aba81f045/navigation-fragment-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.1.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/a4c1163059563220eb34d40aba81f045/navigation-fragment-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/6a14257fefc2dda3e832339c63cf5061/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/6a14257fefc2dda3e832339c63cf5061/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/fernanda/.gradle/caches/transforms-2/files-2.1/245d5b18118e6b5c1bf36e9adda4adaf/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/fernanda/.gradle/caches/transforms-2/files-2.1/245d5b18118e6b5c1bf36e9adda4adaf/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.1.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/69204c9438186052bc18f99e30d6c9ba/navigation-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.1.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/69204c9438186052bc18f99e30d6c9ba/navigation-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /home/fernanda/.gradle/caches/transforms-2/files-2.1/01d3dfc95a2231e940ca276123dd7284/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /home/fernanda/.gradle/caches/transforms-2/files-2.1/01d3dfc95a2231e940ca276123dd7284/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/8d5d9afb0739d0e0bb5815febfd23e9b/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/8d5d9afb0739d0e0bb5815febfd23e9b/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/95cbcdd264a2eccacc08be754a9be679/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/95cbcdd264a2eccacc08be754a9be679/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/63d693d6393609dd312217953d27b75c/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/63d693d6393609dd312217953d27b75c/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/52af9bb131e0a20092265842e485c08f/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/52af9bb131e0a20092265842e485c08f/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/291b0dc121fa3d21c4d609cf60748a6c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/291b0dc121fa3d21c4d609cf60748a6c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/af4ce0c025385f4d674c3fbc90c74bbd/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/af4ce0c025385f4d674c3fbc90c74bbd/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/dfb7ac91904b3c5a9d1a67aa3c159bd7/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/dfb7ac91904b3c5a9d1a67aa3c159bd7/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/a547992bccb754fe8c5281f35b02b089/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/a547992bccb754fe8c5281f35b02b089/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/d643442c4ffc886106a5522b382be213/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/d643442c4ffc886106a5522b382be213/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/1bb65d76bc4c53e4fd0fa77c28d107ec/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/1bb65d76bc4c53e4fd0fa77c28d107ec/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/da24100bb264bf73e5dde9fdbea460b1/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/da24100bb264bf73e5dde9fdbea460b1/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/62ecce35880984b0c138ce475dc962aa/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/62ecce35880984b0c138ce475dc962aa/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/ad21947eec5ee398f5c283b0c4da9784/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/ad21947eec5ee398f5c283b0c4da9784/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/54a6463602e092e46e6a3bac5a75d6f2/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/54a6463602e092e46e6a3bac5a75d6f2/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/82ae702ce6452c85bbcde570c36bca5b/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/82ae702ce6452c85bbcde570c36bca5b/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/d88be84dffbca90874262a60190a4c2c/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/d88be84dffbca90874262a60190a4c2c/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.1.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/bc6cf0ac4c9abbf0329bc0fa7248212f/navigation-common-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.1.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/bc6cf0ac4c9abbf0329bc0fa7248212f/navigation-common-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/e4e60fa01183f8bb008117a464bbdf63/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/e4e60fa01183f8bb008117a464bbdf63/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/3d3b0751e6f78ff8c1df2664b2714ed8/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/3d3b0751e6f78ff8c1df2664b2714ed8/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/6b29ae8b343c6e40ef5b3af3ef8ffd9f/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/6b29ae8b343c6e40ef5b3af3ef8ffd9f/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/6efa611ead098d00fb51ded6becaa692/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/6efa611ead098d00fb51ded6becaa692/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/2d25f95281113cadc6574ee6a3fb22e3/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/2d25f95281113cadc6574ee6a3fb22e3/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/c0069380fc4c66ec832f68ba8d396e7e/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/c0069380fc4c66ec832f68ba8d396e7e/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/c5e24b687d8535e2e6f966021bb5a6f1/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/c5e24b687d8535e2e6f966021bb5a6f1/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/1e3cc287f6f9aff9dd7d87c943f1b053/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/1e3cc287f6f9aff9dd7d87c943f1b053/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/875b092885b7287026f6ad15296f163d/jetified-gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/875b092885b7287026f6ad15296f163d/jetified-gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/d5b86639e8417a4990a8aae1cab5c740/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/d5b86639e8417a4990a8aae1cab5c740/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/9bc35db89de5b085067c1324b8bfbbcf/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/9bc35db89de5b085067c1324b8bfbbcf/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/7574a2bacc64e6b5d351698a89f42523/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/7574a2bacc64e6b5d351698a89f42523/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/eeb46425476175758829c070e05af108/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/eeb46425476175758829c070e05af108/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/5de14670e80ac28f28052413a4a35127/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/5de14670e80ac28f28052413a4a35127/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/ece19be2784936bb046fe37356a8107f/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/ece19be2784936bb046fe37356a8107f/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/b4e5313905416d8123f632a0f396ac33/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/b4e5313905416d8123f632a0f396ac33/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/0c170a5bf61b9b60ba30f013c401aa8b/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/0c170a5bf61b9b60ba30f013c401aa8b/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/871eada208e4b1d3c3f2e0d7eeb7730e/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/871eada208e4b1d3c3f2e0d7eeb7730e/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/763fff8338f14250d307a24463e7c6bd/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/763fff8338f14250d307a24463e7c6bd/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/4a7e3a6a5b12d48699851e0cd7ae034e/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/4a7e3a6a5b12d48699851e0cd7ae034e/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/a4934bcfce5a642fea31bbad1cb3e0e2/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/a4934bcfce5a642fea31bbad1cb3e0e2/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml
+INJECTED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml
+		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml
+		INJECTED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml
+		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml
+		INJECTED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/2d25f95281113cadc6574ee6a3fb22e3/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/2d25f95281113cadc6574ee6a3fb22e3/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/2d25f95281113cadc6574ee6a3fb22e3/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/2d25f95281113cadc6574ee6a3fb22e3/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/2d25f95281113cadc6574ee6a3fb22e3/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
