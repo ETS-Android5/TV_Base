@@ -13,7 +13,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import java.util.ArrayList;
 
-public class Connection {
+public class Connection implements Connect {
     private Context context;
     private RequestQueue mQueue;
     private AssistantMethods assistant;
@@ -24,6 +24,7 @@ public class Connection {
         assistant = new AssistantMethods(context);
     }
 
+    @Override
     public void getPosters(String url, final ArrayList<String> dataArray) {
         for (int i = 1; i < 4; i++){
             String numPage = String.valueOf(i);

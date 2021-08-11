@@ -29,4 +29,6 @@ public class Data {
         connection.getPosters(Constants.getBaseTvUrl(), dataPopSeries);
         return dataPopSeries;
     }
+
+
 }

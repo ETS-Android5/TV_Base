@@ -9,6 +9,7 @@ public class Constants {
     private static final String TV_POPULAR = "tv/popular";
     private static final String BASE_MOVIE_URL = "https://api.themoviedb.org/3/movie/popular?api_key="+API_KEY+"&language=en-US&page=";
     private static final String BASE_TV_URL = "https://api.themoviedb.org/3/"+DISCOVER_TV+"?api_key="+API_KEY+"&language=en-US"+SORT_BY+"&page=";
+    private static final String BASE_SEARCH_URL = "https://api.themoviedb.org/3/search/multi?api_key=8c192694ea899ac35ead1ae82c4d2cda&page=1&query=";
     private static final String IMAGE_URL = "https://image.tmdb.org/t/p/w500";
 
     public static String getBaseMovieUrl() {
@@ -21,5 +22,9 @@ public class Constants {
 
     public static String getIMAGE_URL() {
         return IMAGE_URL;
+    }
+
+    public static String getBaseSearchUrl(){
+        return BASE_SEARCH_URL;
     }
 }

@@ -3,23 +3,29 @@
             xmlns:app="http://schemas.android.com/apk/res-auto"
             xmlns:tools="http://schemas.android.com/tools"
             android:id="@+id/mobile_navigation"
-            app:startDestination="@+id/navigation_home" tools:ignore="UnusedNavigation">
+            app:startDestination="@+id/navigation_movies" tools:ignore="UnusedNavigation">
 
     <fragment
-            android:id="@+id/navigation_home"
+            android:id="@+id/navigation_movies"
             android:name="com.a7apps.tvbase.ui.movies.MoviesFragment"
             android:label="@string/title_movies"
             tools:layout="@layout/fragment_movies"/>
 
     <fragment
-            android:id="@+id/navigation_dashboard"
+            android:id="@+id/navigation_series"
             android:name="com.a7apps.tvbase.ui.series.SeriesFragment"
             android:label="@string/title_series"
             tools:layout="@layout/fragment_series"/>
 
     <fragment
-            android:id="@+id/navigation_notifications"
+            android:id="@+id/navigation_customlists"
             android:name="com.a7apps.tvbase.ui.customlists.NotificationsFragment"
             android:label="@string/title_customLists"
             tools:layout="@layout/fragment_customlists"/>
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.a7apps.tvbase.ui.search.SearchFragment"
+        android:label="@string/title_search"
+        tools:layout="@layout/fragment_search"/>
 </navigation>

@@ -24,6 +24,7 @@ public class TabAdapMovies extends FragmentStateAdapter {
             case 1: fragment = new WatchlistMoviesFrag(); break;
             case 2: fragment = new WatchedMoviesFrag(); break;
         }
+
         return fragment;
     }
 

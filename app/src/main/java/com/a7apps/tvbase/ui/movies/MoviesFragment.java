@@ -60,9 +60,6 @@ public class MoviesFragment extends Fragment {
             }
         }).start();
 
-
-
-
         return view;
     }
 }

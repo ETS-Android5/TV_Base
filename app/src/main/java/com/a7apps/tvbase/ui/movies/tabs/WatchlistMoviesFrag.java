@@ -23,13 +23,7 @@ public class WatchlistMoviesFrag extends Fragment {
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
 
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
-    private RecyclerView recyclerView;
-    private AdapRV adapRV;
-    private ProgressBar progress;
-    private Data data;
+
 
     public WatchlistMoviesFrag() {
         // Required empty public constructor
@@ -63,30 +57,9 @@ public class WatchlistMoviesFrag extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
        View view = inflater.inflate(R.layout.fragment_watchlist_movies,container,false);
-        recyclerView = view.findViewById(R.id.rvPopSeries);
-        progress = view.findViewById(R.id.pbFragmentWatchlist);
-        recyclerView.setHasFixedSize(true);
 
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                data = new Data(getActivity().getApplicationContext());
-                adapRV = new AdapRV(getActivity().getApplicationContext(), data.getDataPopSeries());
-                adapRV.notifyDataSetChanged();
-                try {
-                    Thread.sleep(2000);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-                getActivity().runOnUiThread(new Runnable() {
-                    @Override
-                    public void run() {
-                        recyclerView.setAdapter(adapRV);
-                        progress.setVisibility(View.INVISIBLE);
-                    }
-                });
-            }
-        }).start();
+
+
        return view;
     }
 }

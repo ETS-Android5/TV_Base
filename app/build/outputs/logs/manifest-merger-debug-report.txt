@@ -12,9 +12,13 @@ MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/fernanda/.gradle/cach
 MERGED from [com.android.volley:volley:1.2.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/51af6846157b8f63f8e3f8c7c9e47595/jetified-volley-1.2.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/8689124caa1430799f02cb459f46e2da/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.recyclerview:recyclerview:1.2.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/47dae13cb069542c0876568532f15a2d/recyclerview-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.android:audience-network-sdk:6.5.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/dfa395ac32b54f430547536349bd1274/jetified-audience-network-sdk-6.5.1/AndroidManifest.xml:2:1-31:12
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /home/fernanda/.gradle/caches/transforms-2/files-2.1/7dc29f9786c6ed1e199982748630ff88/jetified-play-services-basement-11.0.4/AndroidManifest.xml:16:1-23:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/cdd4a60bef6c0f8a7e620ac5295b11ad/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-fragment:2.1.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/a4c1163059563220eb34d40aba81f045/navigation-fragment-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/6a14257fefc2dda3e832339c63cf5061/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/571b43dc3d370ac743a943865d6e4a66/jetified-lifecycle-livedata-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/af641715a5d81f2a2ee4c203d61ed554/jetified-lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.3.6] /home/fernanda/.gradle/caches/transforms-2/files-2.1/245d5b18118e6b5c1bf36e9adda4adaf/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-runtime:2.1.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/69204c9438186052bc18f99e30d6c9ba/navigation-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.2.4] /home/fernanda/.gradle/caches/transforms-2/files-2.1/01d3dfc95a2231e940ca276123dd7284/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
@@ -46,7 +50,8 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/fernanda/.gradl
 MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/875b092885b7287026f6ad15296f163d/jetified-gifdecoder-4.12.0/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.exifinterface:exifinterface:1.2.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/d5b86639e8417a4990a8aae1cab5c740/exifinterface-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/9bc35db89de5b085067c1324b8bfbbcf/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/7574a2bacc64e6b5d351698a89f42523/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/dcfdda81f1a0c0c8194e8093ed02014c/lifecycle-livedata-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/4e135c5bc7b71f541bfb359039037316/jetified-lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/eeb46425476175758829c070e05af108/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/5de14670e80ac28f28052413a4a35127/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/ece19be2784936bb046fe37356a8107f/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
@@ -60,7 +65,7 @@ INJECTED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/T
 INJECTED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:2:1-26:12
 INJECTED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:2:1-26:12
 	package
-		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:3:11-38
+		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:3:5-32
 		INJECTED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml
 		INJECTED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml
 	android:versionName
@@ -74,7 +79,9 @@ INJECTED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/T
 	xmlns:android
 		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:5:5-66
+ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [com.facebook.android:audience-network-sdk:6.5.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/dfa395ac32b54f430547536349bd1274/jetified-audience-network-sdk-6.5.1/AndroidManifest.xml:15:5-67
+MERGED from [com.facebook.android:audience-network-sdk:6.5.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/dfa395ac32b54f430547536349bd1274/jetified-audience-network-sdk-6.5.1/AndroidManifest.xml:15:5-67
 	android:name
 		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:5:22-64
 application
@@ -85,6 +92,10 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/fernanda/.g
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/fernanda/.gradle/caches/transforms-2/files-2.1/53429fbc83e528985386a3702907817d/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/10247ff56cfefbfcb30180066fb4239e/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
 MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/10247ff56cfefbfcb30180066fb4239e/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [com.facebook.android:audience-network-sdk:6.5.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/dfa395ac32b54f430547536349bd1274/jetified-audience-network-sdk-6.5.1/AndroidManifest.xml:18:5-29:19
+MERGED from [com.facebook.android:audience-network-sdk:6.5.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/dfa395ac32b54f430547536349bd1274/jetified-audience-network-sdk-6.5.1/AndroidManifest.xml:18:5-29:19
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /home/fernanda/.gradle/caches/transforms-2/files-2.1/7dc29f9786c6ed1e199982748630ff88/jetified-play-services-basement-11.0.4/AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /home/fernanda/.gradle/caches/transforms-2/files-2.1/7dc29f9786c6ed1e199982748630ff88/jetified-play-services-basement-11.0.4/AndroidManifest.xml:19:5-21:19
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/6a14257fefc2dda3e832339c63cf5061/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/6a14257fefc2dda3e832339c63cf5061/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.core:core:1.5.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/e4e60fa01183f8bb008117a464bbdf63/core-1.5.0/AndroidManifest.xml:24:5-89
@@ -98,33 +109,33 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/ferna
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.5.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/e4e60fa01183f8bb008117a464bbdf63/core-1.5.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:13:13-39
+		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:11:13-45
+		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:11:9-41
 	android:hardwareAccelerated
-		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:9:13-47
+		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:9:9-43
 	android:roundIcon
-		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:12:13-58
+		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:10:13-47
+		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:8:13-39
+		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:14:13-44
+		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:14:9-40
 activity#com.a7apps.tvbase.MainActivity
 ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:15:9-23:20
 	android:label
-		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:17:17-49
+		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:17:13-45
 	android:name
-		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:16:17-45
+		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:16:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:19:17-68
+ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:19:17-69
 	android:name
 		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:21:17-76
+ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:21:17-77
 	android:name
 		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:21:27-74
 uses-sdk
@@ -147,12 +158,20 @@ MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/fernanda/.gradle/caches
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/8689124caa1430799f02cb459f46e2da/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.2.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/47dae13cb069542c0876568532f15a2d/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.2.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/47dae13cb069542c0876568532f15a2d/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.android:audience-network-sdk:6.5.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/dfa395ac32b54f430547536349bd1274/jetified-audience-network-sdk-6.5.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.android:audience-network-sdk:6.5.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/dfa395ac32b54f430547536349bd1274/jetified-audience-network-sdk-6.5.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /home/fernanda/.gradle/caches/transforms-2/files-2.1/7dc29f9786c6ed1e199982748630ff88/jetified-play-services-basement-11.0.4/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /home/fernanda/.gradle/caches/transforms-2/files-2.1/7dc29f9786c6ed1e199982748630ff88/jetified-play-services-basement-11.0.4/AndroidManifest.xml:17:5-43
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/cdd4a60bef6c0f8a7e620ac5295b11ad/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/cdd4a60bef6c0f8a7e620ac5295b11ad/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-fragment:2.1.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/a4c1163059563220eb34d40aba81f045/navigation-fragment-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-fragment:2.1.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/a4c1163059563220eb34d40aba81f045/navigation-fragment-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/6a14257fefc2dda3e832339c63cf5061/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/6a14257fefc2dda3e832339c63cf5061/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/571b43dc3d370ac743a943865d6e4a66/jetified-lifecycle-livedata-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/571b43dc3d370ac743a943865d6e4a66/jetified-lifecycle-livedata-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/af641715a5d81f2a2ee4c203d61ed554/jetified-lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/af641715a5d81f2a2ee4c203d61ed554/jetified-lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.3.6] /home/fernanda/.gradle/caches/transforms-2/files-2.1/245d5b18118e6b5c1bf36e9adda4adaf/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.3.6] /home/fernanda/.gradle/caches/transforms-2/files-2.1/245d5b18118e6b5c1bf36e9adda4adaf/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-runtime:2.1.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/69204c9438186052bc18f99e30d6c9ba/navigation-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
@@ -215,8 +234,10 @@ MERGED from [androidx.exifinterface:exifinterface:1.2.0] /home/fernanda/.gradle/
 MERGED from [androidx.exifinterface:exifinterface:1.2.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/d5b86639e8417a4990a8aae1cab5c740/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cardview:cardview:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/9bc35db89de5b085067c1324b8bfbbcf/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/9bc35db89de5b085067c1324b8bfbbcf/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/7574a2bacc64e6b5d351698a89f42523/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/7574a2bacc64e6b5d351698a89f42523/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/dcfdda81f1a0c0c8194e8093ed02014c/lifecycle-livedata-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/dcfdda81f1a0c0c8194e8093ed02014c/lifecycle-livedata-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/4e135c5bc7b71f541bfb359039037316/jetified-lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/4e135c5bc7b71f541bfb359039037316/jetified-lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/eeb46425476175758829c070e05af108/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/eeb46425476175758829c070e05af108/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/5de14670e80ac28f28052413a4a35127/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
@@ -245,6 +266,40 @@ INJECTED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/T
 		INJECTED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml
 		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml
 		INJECTED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml
+queries
+ADDED from [com.facebook.android:audience-network-sdk:6.5.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/dfa395ac32b54f430547536349bd1274/jetified-audience-network-sdk-6.5.1/AndroidManifest.xml:11:5-13:15
+package#com.facebook.katana
+ADDED from [com.facebook.android:audience-network-sdk:6.5.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/dfa395ac32b54f430547536349bd1274/jetified-audience-network-sdk-6.5.1/AndroidManifest.xml:12:9-55
+	android:name
+		ADDED from [com.facebook.android:audience-network-sdk:6.5.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/dfa395ac32b54f430547536349bd1274/jetified-audience-network-sdk-6.5.1/AndroidManifest.xml:12:18-52
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.facebook.android:audience-network-sdk:6.5.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/dfa395ac32b54f430547536349bd1274/jetified-audience-network-sdk-6.5.1/AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from [com.facebook.android:audience-network-sdk:6.5.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/dfa395ac32b54f430547536349bd1274/jetified-audience-network-sdk-6.5.1/AndroidManifest.xml:16:22-76
+activity#com.facebook.ads.AudienceNetworkActivity
+ADDED from [com.facebook.android:audience-network-sdk:6.5.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/dfa395ac32b54f430547536349bd1274/jetified-audience-network-sdk-6.5.1/AndroidManifest.xml:19:9-23:75
+	android:exported
+		ADDED from [com.facebook.android:audience-network-sdk:6.5.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/dfa395ac32b54f430547536349bd1274/jetified-audience-network-sdk-6.5.1/AndroidManifest.xml:22:13-37
+	android:configChanges
+		ADDED from [com.facebook.android:audience-network-sdk:6.5.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/dfa395ac32b54f430547536349bd1274/jetified-audience-network-sdk-6.5.1/AndroidManifest.xml:21:13-74
+	android:theme
+		ADDED from [com.facebook.android:audience-network-sdk:6.5.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/dfa395ac32b54f430547536349bd1274/jetified-audience-network-sdk-6.5.1/AndroidManifest.xml:23:13-72
+	android:name
+		ADDED from [com.facebook.android:audience-network-sdk:6.5.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/dfa395ac32b54f430547536349bd1274/jetified-audience-network-sdk-6.5.1/AndroidManifest.xml:20:13-68
+provider#com.facebook.ads.AudienceNetworkContentProvider
+ADDED from [com.facebook.android:audience-network-sdk:6.5.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/dfa395ac32b54f430547536349bd1274/jetified-audience-network-sdk-6.5.1/AndroidManifest.xml:25:9-28:40
+	android:authorities
+		ADDED from [com.facebook.android:audience-network-sdk:6.5.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/dfa395ac32b54f430547536349bd1274/jetified-audience-network-sdk-6.5.1/AndroidManifest.xml:27:13-82
+	android:exported
+		ADDED from [com.facebook.android:audience-network-sdk:6.5.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/dfa395ac32b54f430547536349bd1274/jetified-audience-network-sdk-6.5.1/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [com.facebook.android:audience-network-sdk:6.5.1] /home/fernanda/.gradle/caches/transforms-2/files-2.1/dfa395ac32b54f430547536349bd1274/jetified-audience-network-sdk-6.5.1/AndroidManifest.xml:26:13-75
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.0.4] /home/fernanda/.gradle/caches/transforms-2/files-2.1/7dc29f9786c6ed1e199982748630ff88/jetified-play-services-basement-11.0.4/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.0.4] /home/fernanda/.gradle/caches/transforms-2/files-2.1/7dc29f9786c6ed1e199982748630ff88/jetified-play-services-basement-11.0.4/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.0.4] /home/fernanda/.gradle/caches/transforms-2/files-2.1/7dc29f9786c6ed1e199982748630ff88/jetified-play-services-basement-11.0.4/AndroidManifest.xml:20:20-65
 provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
 ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/fernanda/.gradle/caches/transforms-2/files-2.1/2d25f95281113cadc6574ee6a3fb22e3/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
 	android:authorities

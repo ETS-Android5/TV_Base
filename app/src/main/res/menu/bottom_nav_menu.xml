@@ -2,17 +2,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-            android:id="@+id/navigation_home"
+            android:id="@+id/navigation_movies"
             android:icon="@drawable/baseline_theaters_24"
             android:title="@string/title_movies"/>
 
     <item
-            android:id="@+id/navigation_dashboard"
+            android:id="@+id/navigation_series"
             android:icon="@drawable/baseline_live_tv_24"
             android:title="@string/title_series"/>
 
     <item
-            android:id="@+id/navigation_notifications"
+            android:id="@+id/navigation_customlists"
             android:icon="@drawable/baseline_playlist_add_24"
             android:title="@string/title_customLists"/>
 

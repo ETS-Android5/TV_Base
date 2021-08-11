@@ -1723,6 +1723,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable custom_input
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -1841,6 +1842,7 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_search
 id action_text
 id actions
 id activity_chooser_view_content
@@ -1929,6 +1931,7 @@ id easeIn
 id easeInOut
 id easeOut
 id edit_query
+id edtSearch
 id elastic
 id end
 id endToStart
@@ -2050,11 +2053,11 @@ id navigation_bar_item_icon_view
 id navigation_bar_item_labels_group
 id navigation_bar_item_large_label_view
 id navigation_bar_item_small_label_view
-id navigation_dashboard
+id navigation_customlists
 id navigation_header_container
-id navigation_home
-id navigation_notifications
+id navigation_movies
 id navigation_search
+id navigation_series
 id navigation_settings
 id never
 id noScroll
@@ -2077,7 +2080,8 @@ id password_toggle
 id path
 id pathRelative
 id pbFragmentPopMovies
-id pbFragmentWatchlist
+id pbFragmentPopSeries
+id pbSearch
 id peekHeight
 id percent
 id pin
@@ -2098,6 +2102,7 @@ id rounded
 id row_index_key
 id rvPopMovies
 id rvPopSeries
+id rvSearch
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -2155,6 +2160,7 @@ id stretch
 id submenuarrow
 id submit_area
 id tabLayoutMovies
+id tabLayoutSeries
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -2180,7 +2186,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id text_dashboard
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2213,6 +2218,7 @@ id unlabeled
 id up
 id useLogo
 id viewPagerMovies
+id viewPagerSeries
 id view_offset_helper
 id view_tree_lifecycle_owner
 id view_tree_saved_state_registry_owner
@@ -2233,6 +2239,7 @@ integer config_navAnimTime
 integer config_tooltipAnimTime
 integer design_snackbar_text_max_lines
 integer design_tab_indicator_anim_duration_ms
+integer google_play_services_version
 integer hide_password_duration
 integer material_motion_duration_long_1
 integer material_motion_duration_long_2
@@ -2312,9 +2319,13 @@ layout design_text_input_start_icon
 layout fragment_customlists
 layout fragment_movies
 layout fragment_pop_movies
+layout fragment_pop_series
+layout fragment_search
 layout fragment_series
 layout fragment_watched_movies
+layout fragment_watched_series
 layout fragment_watchlist_movies
+layout fragment_watchlist_series
 layout item_recyclerview
 layout material_chip_input_combo
 layout material_clock_display
@@ -2394,6 +2405,7 @@ layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
 menu bottom_nav_menu
+menu menu_search
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation mobile_navigation
@@ -2435,6 +2447,7 @@ string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
+string common_google_play_services_unknown_issue
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior

@@ -1,11 +1,15 @@
 package com.a7apps.tvbase.ui.series.tabs;
 
 import android.os.Bundle;
+import android.widget.ProgressBar;
 import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import androidx.recyclerview.widget.RecyclerView;
 import com.a7apps.tvbase.R;
+import com.a7apps.tvbase.adapter.AdapRV;
+import com.a7apps.tvbase.data.Data;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -19,9 +23,11 @@ public class PopSeriesFrag extends Fragment {
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
 
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
+
+    private RecyclerView recyclerView;
+    private AdapRV adapRV;
+    private ProgressBar progress;
+    private Data data;
 
     public PopSeriesFrag() {
         // Required empty public constructor
@@ -48,16 +54,39 @@ public class PopSeriesFrag extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
+
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_pop_series, container, false);
+
+        View view = inflater.inflate(R.layout.fragment_pop_series, container, false);
+        recyclerView = view.findViewById(R.id.rvPopSeries);
+        progress = view.findViewById(R.id.pbFragmentPopSeries);
+        recyclerView.setHasFixedSize(true);
+
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                data = new Data(getActivity().getApplicationContext());
+                adapRV = new AdapRV(getActivity().getApplicationContext(), data.getDataPopSeries());
+                adapRV.notifyDataSetChanged();
+                try {
+                    Thread.sleep(900);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                getActivity().runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        recyclerView.setAdapter(adapRV);
+                        progress.setVisibility(View.INVISIBLE);
+                    }
+                });
+            }
+        }).start();
+
+        return view;
     }
 }

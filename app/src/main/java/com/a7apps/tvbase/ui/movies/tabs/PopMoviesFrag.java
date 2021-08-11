@@ -73,7 +73,7 @@ public class PopMoviesFrag extends Fragment {
                 adapRV = new AdapRV(getActivity().getApplicationContext(), data.getDataPopMovies());
                 adapRV.notifyDataSetChanged();
                 try {
-                    Thread.sleep(2000);
+                    Thread.sleep(900);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
