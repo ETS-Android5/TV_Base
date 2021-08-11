@@ -8,7 +8,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import com.a7apps.tvbase.R;
 
-public class DashboardFragment extends Fragment {
+public class SeriesFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {

@@ -13,7 +13,7 @@
 
     <fragment
             android:id="@+id/navigation_dashboard"
-            android:name="com.a7apps.tvbase.ui.series.DashboardFragment"
+            android:name="com.a7apps.tvbase.ui.series.SeriesFragment"
             android:label="@string/title_series"
             tools:layout="@layout/fragment_series"/>
 
