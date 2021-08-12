@@ -28,16 +28,17 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="#ffffff"
-                android:text="TVBase"
+                android:text="@string/app_name"
                 android:textSize="26sp"/>
 
             <ImageButton
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_gravity="right"
-                android:id="@+id/imageButton"
+                android:id="@+id/btnAddCustomList"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_plus" />
+                android:src="@drawable/ic_plus"
+                tools:ignore="RtlHardcoded" />
 
 
         </androidx.appcompat.widget.Toolbar>
