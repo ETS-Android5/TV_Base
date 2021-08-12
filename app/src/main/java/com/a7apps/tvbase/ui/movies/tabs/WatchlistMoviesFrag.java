@@ -1,15 +1,11 @@
 package com.a7apps.tvbase.ui.movies.tabs;
 
 import android.os.Bundle;
-import android.widget.ProgressBar;
 import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import androidx.recyclerview.widget.RecyclerView;
 import com.a7apps.tvbase.R;
-import com.a7apps.tvbase.adapter.AdapRV;
-import com.a7apps.tvbase.data.Data;
 
 /**
  * A simple {@link Fragment} subclass.

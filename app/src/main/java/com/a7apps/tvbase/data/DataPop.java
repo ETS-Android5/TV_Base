@@ -9,13 +9,13 @@ import com.a7apps.tvbase.connection.Connection;
 
 import java.util.ArrayList;
 
-public class Data {
+public class DataPop {
     private Context context;
     private Connection connection;
     private ArrayList<String> dataPopMovies = new ArrayList<>();
     private ArrayList<String> dataPopSeries = new ArrayList<>();
 
-    public Data(Context context) {
+    public DataPop(Context context) {
         this.context = context;
         connection = new Connection(context);
     }
@@ -29,6 +29,5 @@ public class Data {
         connection.getPosters(Constants.getBaseTvUrl(), dataPopSeries);
         return dataPopSeries;
     }
-
 
 }

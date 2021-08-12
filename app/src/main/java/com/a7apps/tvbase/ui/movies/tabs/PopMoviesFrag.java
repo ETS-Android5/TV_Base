@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import androidx.recyclerview.widget.RecyclerView;
 import com.a7apps.tvbase.R;
 import com.a7apps.tvbase.adapter.AdapRV;
-import com.a7apps.tvbase.data.Data;
+import com.a7apps.tvbase.data.DataPop;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -27,7 +27,7 @@ public class PopMoviesFrag extends Fragment {
     private String mParam1;
     private String mParam2;
     private RecyclerView recyclerView;
-    private Data data;
+    private DataPop dataPop;
     private AdapRV adapRV;
     private ProgressBar progress;
     public PopMoviesFrag() {
@@ -69,8 +69,8 @@ public class PopMoviesFrag extends Fragment {
         new Thread(new Runnable() {
             @Override
             public void run() {
-                data = new Data(getActivity().getApplicationContext());
-                adapRV = new AdapRV(getActivity().getApplicationContext(), data.getDataPopMovies());
+                dataPop = new DataPop(getActivity().getApplicationContext());
+                adapRV = new AdapRV(getActivity().getApplicationContext(), dataPop.getDataPopMovies());
                 adapRV.notifyDataSetChanged();
                 try {
                     Thread.sleep(900);
