@@ -19,9 +19,9 @@
 
     <fragment
             android:id="@+id/navigation_customlists"
-            android:name="com.a7apps.tvbase.ui.customlists.NotificationsFragment"
+            android:name="com.a7apps.tvbase.ui.customlists.CustomListsFragment"
             android:label="@string/title_customLists"
-            tools:layout="@layout/fragment_customlists"/>
+            tools:layout="@layout/fragment_custom_lists"/>
 
     <fragment
         android:id="@+id/navigation_search"

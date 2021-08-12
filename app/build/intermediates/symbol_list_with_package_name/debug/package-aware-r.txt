@@ -1740,6 +1740,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_plus
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1973,6 +1974,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageButton
 id info
 id invisible
 id inward
@@ -2189,7 +2191,6 @@ id textTop
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
-id text_notifications
 id textinput_counter
 id textinput_error
 id textinput_helper_text
@@ -2201,6 +2202,7 @@ id title
 id titleDividerNoCustom
 id title_template
 id toggle
+id toolbar2
 id top
 id topPanel
 id touch_outside
@@ -2212,6 +2214,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id txtEmptyCustomLists
 id unchecked
 id uniform
 id unlabeled
@@ -2316,7 +2319,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
-layout fragment_customlists
+layout fragment_custom_lists
 layout fragment_movies
 layout fragment_pop_movies
 layout fragment_pop_series
@@ -2448,6 +2451,7 @@ string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
 string common_google_play_services_unknown_issue
+string emptyCustomLists
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
