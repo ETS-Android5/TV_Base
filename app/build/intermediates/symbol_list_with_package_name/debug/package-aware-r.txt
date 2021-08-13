@@ -1736,6 +1736,8 @@ drawable ic_launcher_foreground
 drawable ic_menu_camera
 drawable ic_menu_gallery
 drawable ic_menu_slideshow
+drawable ic_more_vert
+drawable ic_movie
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
@@ -1868,6 +1870,7 @@ id beginning
 id blocking
 id bottom
 id bounce
+id btnAddCustomList
 id buttonPanel
 id cache_measures
 id cancel_action
@@ -1968,13 +1971,13 @@ id hideable
 id home
 id homeAsUp
 id honorRequest
+id ibItemRV
 id icon
 id icon_group
 id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageButton
 id info
 id invisible
 id inward

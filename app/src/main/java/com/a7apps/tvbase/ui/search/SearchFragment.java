@@ -2,6 +2,8 @@ package com.a7apps.tvbase.ui.search;
 
 import android.os.Build;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.KeyEvent;
 import android.view.inputmethod.EditorInfo;
 import android.widget.*;
@@ -49,8 +51,9 @@ public class SearchFragment extends Fragment implements Connect {
         recyclerView = view.findViewById(R.id.rvSearch);
         progress = view.findViewById(R.id.pbSearch);
         mQueue = Volley.newRequestQueue(getContext());
+        assistant = new AssistantMethods(getContext());
 
-        editText.setOnEditorActionListener(new TextView.OnEditorActionListener() {
+      /*  editText.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
                 if ((event != null && (event.getKeyCode() == KeyEvent.KEYCODE_ENTER)) || (actionId == EditorInfo.IME_ACTION_DONE)){
@@ -79,6 +82,47 @@ public class SearchFragment extends Fragment implements Connect {
 
                 }
                 return false;
+            }
+        }); */
+
+        editText.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+                if (s.length() > 2){
+                    progress.setVisibility(View.VISIBLE);
+                    new Thread(new Runnable() {
+                        @Override
+                        public void run() {
+                            dataSearch.clear();
+                            getPosters(Constants.getBaseSearchUrl()+searchQuery(), dataSearch);
+                            adapRV = new AdapRV(getActivity().getApplicationContext(), dataSearch);
+                            adapRV.notifyDataSetChanged();
+                            try {
+                                Thread.sleep(300);
+                            } catch (InterruptedException e) {
+                                e.printStackTrace();
+                            }
+                            getActivity().runOnUiThread(new Runnable() {
+                                @Override
+                                public void run() {
+                                    recyclerView.setAdapter(adapRV);
+                                    progress.setVisibility(View.INVISIBLE);
+                                }
+                            });
+                        }
+                    }).start();
+                }
+
             }
         });
 
