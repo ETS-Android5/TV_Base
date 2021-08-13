@@ -4,8 +4,6 @@ import android.os.Build;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.view.KeyEvent;
-import android.view.inputmethod.EditorInfo;
 import android.widget.*;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,7 +18,6 @@ import com.a7apps.tvbase.adapter.AdapRV;
 import com.a7apps.tvbase.assistant.AssistantMethods;
 import com.a7apps.tvbase.assistant.Constants;
 import com.a7apps.tvbase.connection.Connect;
-import com.a7apps.tvbase.connection.Connection;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
@@ -30,7 +27,6 @@ import com.android.volley.toolbox.Volley;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-
 import java.util.ArrayList;
 
 public class SearchFragment extends Fragment implements Connect {
@@ -52,38 +48,6 @@ public class SearchFragment extends Fragment implements Connect {
         progress = view.findViewById(R.id.pbSearch);
         mQueue = Volley.newRequestQueue(getContext());
         assistant = new AssistantMethods(getContext());
-
-      /*  editText.setOnEditorActionListener(new TextView.OnEditorActionListener() {
-            @Override
-            public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
-                if ((event != null && (event.getKeyCode() == KeyEvent.KEYCODE_ENTER)) || (actionId == EditorInfo.IME_ACTION_DONE)){
-                    progress.setVisibility(View.VISIBLE);
-                    new Thread(new Runnable() {
-                        @Override
-                        public void run() {
-                            dataSearch.clear();
-                            getPosters(Constants.getBaseSearchUrl()+searchQuery(), dataSearch);
-                            adapRV = new AdapRV(getActivity().getApplicationContext(), dataSearch);
-                            adapRV.notifyDataSetChanged();
-                            try {
-                                Thread.sleep(2000);
-                            } catch (InterruptedException e) {
-                                e.printStackTrace();
-                            }
-                            getActivity().runOnUiThread(new Runnable() {
-                                @Override
-                                public void run() {
-                                    recyclerView.setAdapter(adapRV);
-                                    progress.setVisibility(View.INVISIBLE);
-                                }
-                            });
-                        }
-                    }).start();
-
-                }
-                return false;
-            }
-        }); */
 
         editText.addTextChangedListener(new TextWatcher() {
             @Override
@@ -122,7 +86,6 @@ public class SearchFragment extends Fragment implements Connect {
                         }
                     }).start();
                 }
-
             }
         });
 
