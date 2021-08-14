@@ -23,6 +23,8 @@
     <string name="trending">TRENDING</string>
     <string name="watchlist">WATCHLIST</string>
     <string name="watched">WATCHED</string>
-
+    <string name="add_watchlist">Add To Watchlist</string>
+    <string name="add_watched">Add To Watched</string>
+    <string name="add_customList">Add To Custom List</string>
     <string name="emptyCustomLists">Your custom list is empty</string>
 </resources>

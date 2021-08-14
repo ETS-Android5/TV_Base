@@ -69,7 +69,7 @@ public class SearchFragment extends Fragment implements Connect {
                         public void run() {
                             dataSearch.clear();
                             getPosters(Constants.getBaseSearchUrl()+searchQuery(), dataSearch);
-                            adapRV = new AdapRV(getActivity().getApplicationContext(), dataSearch);
+                            adapRV = new AdapRV(getActivity().getApplicationContext(), dataSearch,getParentFragmentManager());
                             adapRV.notifyDataSetChanged();
                             try {
                                 Thread.sleep(300);

@@ -1,7 +1,11 @@
 package com.a7apps.tvbase.ui.movies.tabs;
 
+import android.app.Dialog;
 import android.os.Bundle;
 import android.widget.ProgressBar;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,7 +13,9 @@ import android.view.ViewGroup;
 import androidx.recyclerview.widget.RecyclerView;
 import com.a7apps.tvbase.R;
 import com.a7apps.tvbase.adapter.AdapRV;
+import com.a7apps.tvbase.assistant.CustomFragmentDialog;
 import com.a7apps.tvbase.data.DataPop;
+import org.jetbrains.annotations.NotNull;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -66,11 +72,12 @@ public class PopMoviesFrag extends Fragment {
         progress = view.findViewById(R.id.pbFragmentPopMovies);
         recyclerView.setHasFixedSize(true);
 
+
         new Thread(new Runnable() {
             @Override
             public void run() {
                 dataPop = new DataPop(getActivity().getApplicationContext());
-                adapRV = new AdapRV(getActivity().getApplicationContext(), dataPop.getDataPopMovies());
+                adapRV = new AdapRV(getActivity().getApplicationContext(), dataPop.getDataPopMovies(), getParentFragmentManager());
                 adapRV.notifyDataSetChanged();
                 try {
                     Thread.sleep(900);
@@ -89,4 +96,10 @@ public class PopMoviesFrag extends Fragment {
 
         return view;
     }
+
+    public void test(){
+        CustomFragmentDialog customFragmentDialog = new CustomFragmentDialog();
+        customFragmentDialog.show(getFragmentManager(),"CustomDialog");
+    }
+
 }

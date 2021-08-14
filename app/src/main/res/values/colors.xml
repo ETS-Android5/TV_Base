@@ -4,5 +4,5 @@
     <color name="colorPrimaryDark">#4A148C</color>
     <color name="colorAccent">#058E80</color>
     <color name="backgroundActivity">#1A031C</color>
-    <color name="backgroundBtnNav">#5E4093</color>
+    <color name="colorSecondary">#5E4093</color>
 </resources>

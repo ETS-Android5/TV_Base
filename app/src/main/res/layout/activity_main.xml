@@ -9,8 +9,8 @@
         android:paddingTop="0dp">
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
-            android:backgroundTint="@color/backgroundBtnNav"
-            app:backgroundTint="@color/backgroundBtnNav"
+            android:backgroundTint="@color/colorSecondary"
+            app:backgroundTint="@color/colorSecondary"
             android:id="@+id/nav_view"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

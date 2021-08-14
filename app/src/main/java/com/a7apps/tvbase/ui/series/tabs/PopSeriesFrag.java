@@ -70,7 +70,7 @@ public class PopSeriesFrag extends Fragment {
             @Override
             public void run() {
                 dataPop = new DataPop(getActivity().getApplicationContext());
-                adapRV = new AdapRV(getActivity().getApplicationContext(), dataPop.getDataPopSeries());
+                adapRV = new AdapRV(getActivity().getApplicationContext(), dataPop.getDataPopSeries(), getParentFragmentManager());
                 adapRV.notifyDataSetChanged();
                 try {
                     Thread.sleep(900);

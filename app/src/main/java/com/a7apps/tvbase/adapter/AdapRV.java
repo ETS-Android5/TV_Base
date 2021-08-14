@@ -5,13 +5,17 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageButton;
 import android.widget.ImageView;
-import android.widget.Toast;
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
+import androidx.fragment.app.DialogFragment;
+import androidx.fragment.app.FragmentManager;
 import androidx.recyclerview.widget.RecyclerView;
+import com.a7apps.tvbase.MainActivity;
 import com.a7apps.tvbase.R;
 import com.a7apps.tvbase.assistant.Constants;
+import com.a7apps.tvbase.assistant.CustomFragmentDialog;
+import com.a7apps.tvbase.ui.movies.tabs.PopMoviesFrag;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
@@ -20,10 +24,12 @@ import java.util.ArrayList;
 public class AdapRV extends RecyclerView.Adapter<AdapRV.HolderAdapRV>{
     private Context context;
     private ArrayList<String> dataArray;
+    private FragmentManager manager;
 
-    public AdapRV(Context context, ArrayList<String> dataArray) {
+    public AdapRV(Context context, ArrayList<String> dataArray, FragmentManager manager) {
         this.context = context;
         this.dataArray = dataArray;
+        this.manager = manager;
     }
 
     public static class HolderAdapRV extends RecyclerView.ViewHolder{
@@ -52,7 +58,10 @@ public class AdapRV extends RecyclerView.Adapter<AdapRV.HolderAdapRV>{
         holder.imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(context,"Funfa",Toast.LENGTH_LONG).show();
+
+                CustomFragmentDialog customFragmentDialog = new CustomFragmentDialog();
+                customFragmentDialog.show(manager, "CustomDialog");
+
             }
         });
     }
@@ -61,4 +70,7 @@ public class AdapRV extends RecyclerView.Adapter<AdapRV.HolderAdapRV>{
     public int getItemCount() {
         return dataArray.size();
     }
+
+
+
 }

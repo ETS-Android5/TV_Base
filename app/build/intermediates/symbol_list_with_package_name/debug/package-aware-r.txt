@@ -61,6 +61,7 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array text_dialog
 attr action
 attr actionBarDivider
 attr actionBarItemBackground
@@ -1019,7 +1020,6 @@ color accent_material_light
 color androidx_core_ripple_material_light
 color androidx_core_secondary_text_default_material_light
 color backgroundActivity
-color backgroundBtnNav
 color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
@@ -1040,6 +1040,7 @@ color checkbox_themeable_attribute_color
 color colorAccent
 color colorPrimary
 color colorPrimaryDark
+color colorSecondary
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
 color design_dark_default_color_background
@@ -1729,7 +1730,9 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_check
 drawable ic_clock_black_24dp
+drawable ic_eye_plus
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -1737,7 +1740,6 @@ drawable ic_menu_camera
 drawable ic_menu_gallery
 drawable ic_menu_slideshow
 drawable ic_more_vert
-drawable ic_movie
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
@@ -1829,6 +1831,9 @@ id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
 id action0
+id action_addToCustomList
+id action_addToWatched
+id action_addToWatchlist
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -1871,6 +1876,8 @@ id blocking
 id bottom
 id bounce
 id btnAddCustomList
+id btnAddWatched
+id btnAddWatchlist
 id buttonPanel
 id cache_measures
 id cancel_action
@@ -2217,6 +2224,9 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id txtAddCustomList
+id txtAddWatched
+id txtAddWatchlist
 id txtEmptyCustomLists
 id unchecked
 id uniform
@@ -2323,6 +2333,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_custom_lists
+layout fragment_dialog
 layout fragment_movies
 layout fragment_pop_movies
 layout fragment_pop_series
@@ -2411,6 +2422,7 @@ layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
 menu bottom_nav_menu
+menu menu_dialog
 menu menu_search
 mipmap ic_launcher
 mipmap ic_launcher_round
@@ -2444,6 +2456,9 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string action_settings
+string add_customList
+string add_watched
+string add_watchlist
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
@@ -2791,6 +2806,7 @@ style MaterialAlertDialog_MaterialComponents_Title_Panel
 style MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked
 style MaterialAlertDialog_MaterialComponents_Title_Text
 style MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked
+style MyDialogTheme
 style Platform_AppCompat
 style Platform_AppCompat_Light
 style Platform_MaterialComponents

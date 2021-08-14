@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorSecondary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <TableRow android:gravity="center">
+       <TextView
+           android:textStyle="bold"
+           android:layout_margin="8dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/add_watched"
+           android:textSize="16sp"
+           android:textColor="#fff"
+           android:id="@+id/txtAddWatched"/>
+
+       <Button
+           android:layout_margin="8dp"
+           android:layout_width="40dp"
+           android:layout_height="wrap_content"
+           android:background="@drawable/ic_check"
+           style="@style/Widget.AppCompat.Button.Borderless"
+           android:id="@+id/btnAddWatched"/>
+   </TableRow>
+
+    <TableRow android:gravity="center">
+        <TextView
+            android:textStyle="bold"
+            android:layout_margin="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_watchlist"
+            android:textSize="16sp"
+            android:textColor="#fff"
+            android:id="@+id/txtAddWatchlist"/>
+
+        <Button
+            android:layout_margin="8dp"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_eye_plus"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/btnAddWatchlist"/>
+    </TableRow>
+
+    <TableRow android:gravity="center">
+        <TextView
+            android:textStyle="bold"
+            android:layout_margin="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_customList"
+            android:textSize="16sp"
+            android:textColor="#fff"
+            android:id="@+id/txtAddCustomList"/>
+
+        <Button
+            android:layout_margin="8dp"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/baseline_playlist_add_24"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/btnAddCustomList"/>
+    </TableRow>
+
+
+</TableLayout>

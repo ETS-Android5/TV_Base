@@ -60,6 +60,7 @@ int animator mtrl_fab_hide_motion_spec 0x7f020016
 int animator mtrl_fab_show_motion_spec 0x7f020017
 int animator mtrl_fab_transformation_sheet_collapse_spec 0x7f020018
 int animator mtrl_fab_transformation_sheet_expand_spec 0x7f020019
+int array text_dialog 0x7f150000
 int attr action 0x7f030000
 int attr actionBarDivider 0x7f030001
 int attr actionBarItemBackground 0x7f030002
@@ -1018,7 +1019,6 @@ int color accent_material_light 0x7f05001a
 int color androidx_core_ripple_material_light 0x7f05001b
 int color androidx_core_secondary_text_default_material_light 0x7f05001c
 int color backgroundActivity 0x7f05001d
-int color backgroundBtnNav 0x7f05001e
 int color background_floating_material_dark 0x7f05001f
 int color background_floating_material_light 0x7f050020
 int color background_material_dark 0x7f050021
@@ -1039,6 +1039,7 @@ int color checkbox_themeable_attribute_color 0x7f05002f
 int color colorAccent 0x7f050030
 int color colorPrimary 0x7f050031
 int color colorPrimaryDark 0x7f050032
+int color colorSecondary 0x7f0500d4
 int color design_bottom_navigation_shadow_color 0x7f050033
 int color design_box_stroke_color 0x7f050034
 int color design_dark_default_color_background 0x7f050035
@@ -1728,7 +1729,9 @@ int drawable design_ic_visibility 0x7f070067
 int drawable design_ic_visibility_off 0x7f070068
 int drawable design_password_eye 0x7f070069
 int drawable design_snackbar_background 0x7f07006a
+int drawable ic_check 0x7f07009f
 int drawable ic_clock_black_24dp 0x7f07006b
+int drawable ic_eye_plus 0x7f0700a0
 int drawable ic_keyboard_black_24dp 0x7f07006c
 int drawable ic_launcher_background 0x7f07006d
 int drawable ic_launcher_foreground 0x7f07006e
@@ -1736,7 +1739,6 @@ int drawable ic_menu_camera 0x7f07006f
 int drawable ic_menu_gallery 0x7f070070
 int drawable ic_menu_slideshow 0x7f070071
 int drawable ic_more_vert 0x7f07009c
-int drawable ic_movie 0x7f07009e
 int drawable ic_mtrl_checked_circle 0x7f070072
 int drawable ic_mtrl_chip_checked_black 0x7f070073
 int drawable ic_mtrl_chip_checked_circle 0x7f070074
@@ -1828,6 +1830,9 @@ int id accessibility_custom_action_7 0x7f08002d
 int id accessibility_custom_action_8 0x7f08002e
 int id accessibility_custom_action_9 0x7f08002f
 int id action0 0x7f080030
+int id action_addToCustomList 0x7f0801ca
+int id action_addToWatched 0x7f0801cb
+int id action_addToWatchlist 0x7f0801cc
 int id action_bar 0x7f080031
 int id action_bar_activity_content 0x7f080032
 int id action_bar_container 0x7f080033
@@ -1870,6 +1875,8 @@ int id blocking 0x7f080057
 int id bottom 0x7f080058
 int id bounce 0x7f080059
 int id btnAddCustomList 0x7f0801c7
+int id btnAddWatched 0x7f0801d1
+int id btnAddWatchlist 0x7f0801d2
 int id buttonPanel 0x7f08005a
 int id cache_measures 0x7f08005b
 int id cancel_action 0x7f08005c
@@ -2216,6 +2223,9 @@ int id transition_position 0x7f0801b0
 int id transition_scene_layoutid_cache 0x7f0801b1
 int id transition_transform 0x7f0801b2
 int id triangle 0x7f0801b3
+int id txtAddCustomList 0x7f0801d3
+int id txtAddWatched 0x7f0801d4
+int id txtAddWatchlist 0x7f0801d5
 int id txtEmptyCustomLists 0x7f0801b4
 int id unchecked 0x7f0801b5
 int id uniform 0x7f0801b6
@@ -2322,6 +2332,7 @@ int layout design_navigation_menu_item 0x7f0b002a
 int layout design_text_input_end_icon 0x7f0b002b
 int layout design_text_input_start_icon 0x7f0b002c
 int layout fragment_custom_lists 0x7f0b002d
+int layout fragment_dialog 0x7f0b0086
 int layout fragment_movies 0x7f0b002e
 int layout fragment_pop_movies 0x7f0b002f
 int layout fragment_pop_series 0x7f0b0030
@@ -2410,6 +2421,7 @@ int layout text_view_with_line_height_from_style 0x7f0b0082
 int layout text_view_with_theme_line_height 0x7f0b0083
 int layout text_view_without_line_height 0x7f0b0084
 int menu bottom_nav_menu 0x7f0c0000
+int menu menu_dialog 0x7f0c0002
 int menu menu_search 0x7f0c0001
 int mipmap ic_launcher 0x7f0d0000
 int mipmap ic_launcher_round 0x7f0d0001
@@ -2443,6 +2455,9 @@ int string abc_shareactionprovider_share_with 0x7f100018
 int string abc_shareactionprovider_share_with_application 0x7f100019
 int string abc_toolbar_collapse_description 0x7f10001a
 int string action_settings 0x7f10001b
+int string add_customList 0x7f100081
+int string add_watched 0x7f100082
+int string add_watchlist 0x7f100083
 int string app_name 0x7f10001c
 int string appbar_scrolling_view_behavior 0x7f10001d
 int string bottom_sheet_behavior 0x7f10001e
@@ -2790,6 +2805,7 @@ int style MaterialAlertDialog_MaterialComponents_Title_Panel 0x7f1100f2
 int style MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked 0x7f1100f3
 int style MaterialAlertDialog_MaterialComponents_Title_Text 0x7f1100f4
 int style MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked 0x7f1100f5
+int style MyDialogTheme 0x7f1102da
 int style Platform_AppCompat 0x7f1100f6
 int style Platform_AppCompat_Light 0x7f1100f7
 int style Platform_MaterialComponents 0x7f1100f8
