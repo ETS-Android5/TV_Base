@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import androidx.recyclerview.widget.RecyclerView;
 import com.a7apps.tvbase.R;
 import com.a7apps.tvbase.adapter.AdapRV;
+import com.a7apps.tvbase.assistant.Constants;
 import com.a7apps.tvbase.data.DataPop;
 
 /**
@@ -70,7 +71,7 @@ public class PopSeriesFrag extends Fragment {
             @Override
             public void run() {
                 dataPop = new DataPop(getActivity().getApplicationContext());
-                adapRV = new AdapRV(getActivity().getApplicationContext(), dataPop.getDataPopSeries(), getParentFragmentManager());
+                adapRV = new AdapRV(getActivity().getApplicationContext(), dataPop.getDataPopSeries(), getParentFragmentManager(), Constants.TYPE_SERIES);
                 adapRV.notifyDataSetChanged();
                 try {
                     Thread.sleep(900);

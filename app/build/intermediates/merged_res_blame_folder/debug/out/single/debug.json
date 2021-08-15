@@ -20,10 +20,6 @@
         "source": "/home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/build/intermediates/res/merged/debug/menu_menu_dialog.xml.flat",
-        "source": "/home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/res/menu/menu_dialog.xml"
-    },
-    {
         "merged": "/home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/build/intermediates/res/merged/debug/drawable_side_nav_bar.xml.flat",
         "source": "/home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/res/drawable/side_nav_bar.xml"
     },
@@ -80,10 +76,6 @@
         "source": "/home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/res/drawable/ic_more_vert.xml"
     },
     {
-        "merged": "/home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/build/intermediates/res/merged/debug/drawable_ic_menu_gallery.xml.flat",
-        "source": "/home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/res/drawable/ic_menu_gallery.xml"
-    },
-    {
         "merged": "/home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/build/intermediates/res/merged/debug/layout_fragment_custom_lists.xml.flat",
         "source": "/home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/res/layout/fragment_custom_lists.xml"
     },
@@ -136,20 +128,12 @@
         "source": "/home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/res/drawable/baseline_playlist_add_24.xml"
     },
     {
-        "merged": "/home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/build/intermediates/res/merged/debug/drawable_ic_menu_camera.xml.flat",
-        "source": "/home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/res/drawable/ic_menu_camera.xml"
-    },
-    {
         "merged": "/home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/build/intermediates/res/merged/debug/layout_item_recyclerview.xml.flat",
         "source": "/home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/res/layout/item_recyclerview.xml"
     },
     {
         "merged": "/home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/build/intermediates/res/merged/debug/drawable_baseline_more_horiz_24.xml.flat",
         "source": "/home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/res/drawable/baseline_more_horiz_24.xml"
-    },
-    {
-        "merged": "/home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/build/intermediates/res/merged/debug/drawable_ic_menu_slideshow.xml.flat",
-        "source": "/home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/res/drawable/ic_menu_slideshow.xml"
     },
     {
         "merged": "/home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/build/intermediates/res/merged/debug/layout_fragment_pop_series.xml.flat",

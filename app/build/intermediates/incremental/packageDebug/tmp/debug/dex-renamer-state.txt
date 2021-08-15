@@ -1,4 +1,4 @@
-#Sat Aug 14 10:08:00 ACT 2021
+#Sun Aug 15 17:12:29 ACT 2021
 path.4=12/classes.dex
 path.3=11/classes.dex
 path.2=1/classes.dex
@@ -9,6 +9,7 @@ path.8=3/classes.dex
 path.7=2/classes.dex
 path.6=15/classes.dex
 path.5=14/classes.dex
+renamed.11=classes12.dex
 renamed.10=classes11.dex
 path.0=classes.dex
 base.4=/home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/build/intermediates/dex/debug/mergeProjectDexDebug/12/classes.dex
@@ -23,6 +24,7 @@ path.10=10/classes.dex
 renamed.0=classes.dex
 base.9=/home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/build/intermediates/dex/debug/mergeProjectDexDebug/8/classes.dex
 path.9=8/classes.dex
+path.11=6/classes.dex
 renamed.7=classes8.dex
 base.8=/home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/build/intermediates/dex/debug/mergeProjectDexDebug/3/classes.dex
 renamed.6=classes7.dex
@@ -31,4 +33,5 @@ renamed.5=classes6.dex
 base.6=/home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/build/intermediates/dex/debug/mergeProjectDexDebug/15/classes.dex
 renamed.4=classes5.dex
 base.5=/home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/build/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex
+base.11=/home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/build/intermediates/dex/debug/mergeProjectDexDebug/6/classes.dex
 base.10=/home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/build/intermediates/dex/debug/mergeProjectDexDebug/10/classes.dex

@@ -33,7 +33,8 @@ public class SearchFragment extends Fragment implements Connect {
     private EditText editText;
     private RecyclerView recyclerView;
     private AdapRV adapRV;
-    private ArrayList<String> dataSearch = new ArrayList<>();
+    private ArrayList<String> arrayPosterPath = new ArrayList<>();
+    private ArrayList<String> arrayMediaType = new ArrayList<>();
     private RequestQueue mQueue;
     private AssistantMethods assistant;
     private ProgressBar progress;
@@ -48,7 +49,7 @@ public class SearchFragment extends Fragment implements Connect {
         progress = view.findViewById(R.id.pbSearch);
         mQueue = Volley.newRequestQueue(getContext());
         assistant = new AssistantMethods(getContext());
-
+        editText.requestFocus();
         editText.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
@@ -67,9 +68,9 @@ public class SearchFragment extends Fragment implements Connect {
                     new Thread(new Runnable() {
                         @Override
                         public void run() {
-                            dataSearch.clear();
-                            getPosters(Constants.getBaseSearchUrl()+searchQuery(), dataSearch);
-                            adapRV = new AdapRV(getActivity().getApplicationContext(), dataSearch,getParentFragmentManager());
+                            arrayPosterPath.clear();
+                            getPosters(Constants.getBaseSearchUrl()+searchQuery(), arrayPosterPath);
+                            adapRV = new AdapRV(getActivity().getApplicationContext(), arrayPosterPath,getParentFragmentManager(), Constants.TYPE_GENERAL);
                             adapRV.notifyDataSetChanged();
                             try {
                                 Thread.sleep(300);
@@ -99,7 +100,7 @@ public class SearchFragment extends Fragment implements Connect {
     }
 
     @Override
-    public void getPosters(String url, ArrayList<String> dataArray) {
+    public void getPosters(String url, ArrayList<String> arrayPosterPath) {
         JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url, null,
                 new Response.Listener<JSONObject>() {
                     @Override
@@ -112,7 +113,7 @@ public class SearchFragment extends Fragment implements Connect {
 
                                 String posterPath = res.getString("poster_path");
 
-                                dataArray.add(posterPath);
+                                arrayPosterPath.add(posterPath);
                             }
                         } catch (JSONException e) {
                             e.printStackTrace();

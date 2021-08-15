@@ -1736,9 +1736,6 @@ drawable ic_eye_plus
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
-drawable ic_menu_camera
-drawable ic_menu_gallery
-drawable ic_menu_slideshow
 drawable ic_more_vert
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
@@ -1831,9 +1828,6 @@ id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
 id action0
-id action_addToCustomList
-id action_addToWatched
-id action_addToWatchlist
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -1991,6 +1985,8 @@ id inward
 id italic
 id item_touch_helper_previous_elevation
 id ivItemRV
+id ivItemWatched
+id ivItemWatchlist
 id jumpToEnd
 id jumpToStart
 id labeled
@@ -2422,7 +2418,6 @@ layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
 menu bottom_nav_menu
-menu menu_dialog
 menu menu_search
 mipmap ic_launcher
 mipmap ic_launcher_round

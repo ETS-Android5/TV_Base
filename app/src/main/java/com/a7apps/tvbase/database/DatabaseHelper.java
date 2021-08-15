@@ -10,6 +10,7 @@ import androidx.annotation.Nullable;
 public class DatabaseHelper extends SQLiteOpenHelper {
     private static final String DATABASE_NAME = "streaming.db";
     private static final String TABLE_NAME = "media_table";
+    private static final String TABLE_NAME2 = "media_table_movies";
     private static final String _watchlistMovies = "watchlistMovies";
     private static final String _watchedMovies = "watchedMovies";
     private static final String _watchlistSeries = "watchlistSeries";
@@ -21,8 +22,9 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-       // db.execSQL("create table " + TABLE_NAME + "(watchlistMovies VARCHAR, watchedMovies VARCHAR, watchlistSeries VARCHAR, watchedSeries VARCHAR)");
+       //db.execSQL("create table " + TABLE_NAME + "(watchlistMovies VARCHAR, watchedMovies VARCHAR, watchlistSeries VARCHAR, watchedSeries VARCHAR)");
         db.execSQL("create table " + TABLE_NAME + "("+ _watchlistMovies +" VARCHAR, "+ _watchedMovies +" VARCHAR, "+ _watchlistSeries +" VARCHAR, "+ _watchedSeries +" VARCHAR)");
+       // db.execSQL("create table "+TABLE_NAME+"(watchlistMovies VARCHAR)");
     }
 
     @Override
@@ -31,12 +33,51 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         onCreate(db);
     }
 
-    public boolean insertData(String watchlistMovies, String watchedMovies, String watchlistSeries, String watchedSeries){
+    public boolean insertWatchlistMovies(String watchlistMovies){
         SQLiteDatabase sqLiteDatabase = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
         contentValues.put(_watchlistMovies, watchlistMovies);
-        contentValues.put(_watchedMovies, watchedMovies);
+
+        long result = sqLiteDatabase.insert(TABLE_NAME,null,contentValues);
+
+        if (result == -1){
+            return false;
+        }else {
+            return true;
+        }
+    }
+
+    public boolean insertWatchlistSeries(String watchlistSeries){
+        SQLiteDatabase sqLiteDatabase = this.getWritableDatabase();
+        ContentValues contentValues = new ContentValues();
         contentValues.put(_watchlistSeries, watchlistSeries);
+
+        long result = sqLiteDatabase.insert(TABLE_NAME,null,contentValues);
+
+        if (result == -1){
+            return false;
+        }else {
+            return true;
+        }
+    }
+
+    public boolean insertWatchedMovies(String watchedMovies){
+        SQLiteDatabase sqLiteDatabase = this.getWritableDatabase();
+        ContentValues contentValues = new ContentValues();
+        contentValues.put(_watchedMovies, watchedMovies);
+
+        long result = sqLiteDatabase.insert(TABLE_NAME,null,contentValues);
+
+        if (result == -1){
+            return false;
+        }else {
+            return true;
+        }
+    }
+
+    public boolean insertWatchedSeries(String watchedSeries){
+        SQLiteDatabase sqLiteDatabase = this.getWritableDatabase();
+        ContentValues contentValues = new ContentValues();
         contentValues.put(_watchedSeries, watchedSeries);
 
         long result = sqLiteDatabase.insert(TABLE_NAME,null,contentValues);

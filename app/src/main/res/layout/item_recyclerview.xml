@@ -22,6 +22,20 @@
         android:layout_height="26dp"
         android:background="@drawable/ic_more_vert" />
 
+    <ImageView
+        android:visibility="invisible"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/ic_check"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/ivItemWatched"/>
+    <ImageView
+        android:visibility="invisible"
+        android:backgroundTint="#0CFFE6"
+        android:background="@drawable/ic_eye_plus"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:id="@+id/ivItemWatchlist"/>
 </RelativeLayout>
 
 

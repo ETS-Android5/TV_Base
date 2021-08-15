@@ -12,6 +12,10 @@ public class Constants {
     private static final String BASE_SEARCH_URL = "https://api.themoviedb.org/3/search/multi?api_key=8c192694ea899ac35ead1ae82c4d2cda&page=1&query=";
     private static final String IMAGE_URL = "https://image.tmdb.org/t/p/w500";
 
+    public static final String TYPE_MOVIES = "movies";
+    public static final String TYPE_SERIES = "series";
+    public static final String TYPE_GENERAL = "general";
+
     public static String getBaseMovieUrl() {
         return BASE_MOVIE_URL;
     }
@@ -26,5 +30,10 @@ public class Constants {
 
     public static String getBaseSearchUrl(){
         return BASE_SEARCH_URL;
+    }
+
+    public static String searchById(String id){
+        String url = "http://api.themoviedb.org/3/movie/"+id+"?api_key="+API_KEY;
+        return url;
     }
 }
