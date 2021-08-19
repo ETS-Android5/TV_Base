@@ -33,7 +33,7 @@ public class Constants {
     }
 
     public static String movieById(String id){
-        String url = "http://api.themoviedb.org/3/movie/"+id+"?api_key="+API_KEY;
+        String url = "https://api.themoviedb.org/3/movie/"+id+"?api_key="+API_KEY;
         return url;
     }
 }

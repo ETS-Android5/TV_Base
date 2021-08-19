@@ -9,6 +9,8 @@ import android.view.ViewGroup;
 import androidx.recyclerview.widget.RecyclerView;
 import com.a7apps.tvbase.R;
 import com.a7apps.tvbase.adapter.RVAdap;
+import com.a7apps.tvbase.adapter.RVAdapLists;
+import com.a7apps.tvbase.assistant.Constants;
 import com.a7apps.tvbase.data.DataWatch;
 
 public class WatchlistMoviesFrag extends Fragment {
@@ -18,7 +20,7 @@ public class WatchlistMoviesFrag extends Fragment {
     private RecyclerView recyclerView;
     private ProgressBar progressBar;
     private DataWatch dataWatch;
-    private RVAdap rvAdap;
+    private RVAdapLists adapLists;
     public WatchlistMoviesFrag() {
         // Required empty public constructor
     }
@@ -45,6 +47,28 @@ public class WatchlistMoviesFrag extends Fragment {
        progressBar = view.findViewById(R.id.pbWatchlistMovies);
        recyclerView = view.findViewById(R.id.rvWatchlistMovies);
 
+       new Thread(new Runnable() {
+           @Override
+           public void run() {
+               dataWatch = new DataWatch(getActivity().getApplicationContext());
+               dataWatch.initWatchlistMovies();
+               adapLists = new RVAdapLists(getActivity().getApplicationContext(),getParentFragmentManager(),
+                       Constants.TYPE_MOVIES, dataWatch.getListWatchlistMovies(), dataWatch.getIdWatchlistMovies());
+               adapLists.notifyDataSetChanged();
+               try {
+                   Thread.sleep(800);
+               } catch (InterruptedException e) {
+                   e.printStackTrace();
+               }
+               getActivity().runOnUiThread(new Runnable() {
+                   @Override
+                   public void run() {
+                       recyclerView.setAdapter(adapLists);
+                       progressBar.setVisibility(View.INVISIBLE);
+                   }
+               });
+           }
+       }).start();
 
        return view;
     }

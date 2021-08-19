@@ -1873,6 +1873,7 @@ id bounce
 id btnAddWatched
 id btnAddWatchlist
 id btnItemRV
+id btnItemRVL
 id btnRemWatched
 id btnRemWatchlist
 id buttonPanel
@@ -1987,8 +1988,11 @@ id inward
 id italic
 id item_touch_helper_previous_elevation
 id ivItemRV
+id ivItemRVL
 id ivItemWatched
+id ivItemWatchedL
 id ivItemWatchlist
+id ivItemWatchlistL
 id jumpToEnd
 id jumpToStart
 id labeled
@@ -2091,6 +2095,8 @@ id pathRelative
 id pbFragmentPopMovies
 id pbFragmentPopSeries
 id pbSearch
+id pbWatchedMovies
+id pbWatchlistMovies
 id peekHeight
 id percent
 id pin
@@ -2112,6 +2118,8 @@ id row_index_key
 id rvPopMovies
 id rvPopSeries
 id rvSearch
+id rvWatchedMovies
+id rvWatchlistMovies
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -2341,6 +2349,7 @@ layout fragment_watched_series
 layout fragment_watchlist_movies
 layout fragment_watchlist_series
 layout item_recyclerview
+layout item_rvadaplists
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider

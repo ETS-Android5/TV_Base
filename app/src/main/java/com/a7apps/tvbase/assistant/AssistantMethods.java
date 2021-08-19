@@ -15,7 +15,7 @@ public class AssistantMethods {
     public void printConnectionError(VolleyError objError){
         String message = "";
         if (objError instanceof NetworkError){
-            message = "Cannot getPosters to Internet...Please check your connection!(NetworkError)";
+            message = "Cannot getPosters to Internet...\nPlease check your connection!(NetworkError)";
         }else if(objError instanceof ServerError){
             message = "The server could not be found. Please try again after some time!!";
         }else if (objError instanceof AuthFailureError){

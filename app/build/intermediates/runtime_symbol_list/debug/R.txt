@@ -1872,6 +1872,7 @@ int id bounce 0x7f080059
 int id btnAddWatched 0x7f0801d1
 int id btnAddWatchlist 0x7f0801d2
 int id btnItemRV 0x7f0801d8
+int id btnItemRVL 0x7f0801dd
 int id btnRemWatched 0x7f0801d9
 int id btnRemWatchlist 0x7f0801da
 int id buttonPanel 0x7f08005a
@@ -1986,8 +1987,11 @@ int id inward 0x7f0800c7
 int id italic 0x7f0800c8
 int id item_touch_helper_previous_elevation 0x7f0800c9
 int id ivItemRV 0x7f0800ca
+int id ivItemRVL 0x7f0801de
 int id ivItemWatched 0x7f0801d6
+int id ivItemWatchedL 0x7f0801df
 int id ivItemWatchlist 0x7f0801d7
+int id ivItemWatchlistL 0x7f0801e0
 int id jumpToEnd 0x7f0800cb
 int id jumpToStart 0x7f0800cc
 int id labeled 0x7f0800cd
@@ -2090,6 +2094,8 @@ int id pathRelative 0x7f08012e
 int id pbFragmentPopMovies 0x7f08012f
 int id pbFragmentPopSeries 0x7f080130
 int id pbSearch 0x7f080131
+int id pbWatchedMovies 0x7f0801e1
+int id pbWatchlistMovies 0x7f0801e2
 int id peekHeight 0x7f080132
 int id percent 0x7f080133
 int id pin 0x7f080134
@@ -2111,6 +2117,8 @@ int id row_index_key 0x7f080143
 int id rvPopMovies 0x7f080144
 int id rvPopSeries 0x7f080145
 int id rvSearch 0x7f080146
+int id rvWatchedMovies 0x7f0801e3
+int id rvWatchlistMovies 0x7f0801e4
 int id save_non_transition_alpha 0x7f080147
 int id save_overlay_view 0x7f080148
 int id sawtooth 0x7f080149
@@ -2340,6 +2348,7 @@ int layout fragment_watched_series 0x7f0b0034
 int layout fragment_watchlist_movies 0x7f0b0035
 int layout fragment_watchlist_series 0x7f0b0036
 int layout item_recyclerview 0x7f0b0037
+int layout item_rvadaplists 0x7f0b008a
 int layout material_chip_input_combo 0x7f0b0038
 int layout material_clock_display 0x7f0b0039
 int layout material_clock_display_divider 0x7f0b003a

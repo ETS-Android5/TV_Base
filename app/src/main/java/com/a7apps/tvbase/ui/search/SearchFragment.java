@@ -142,7 +142,7 @@ public class SearchFragment extends Fragment implements Connect {
     }
 
     @Override
-    public void thirdRequest(String url, final ArrayList<String> posterArray) {
+    public void thirdRequest(String url, final ArrayList<String> posterArray, final ArrayList<String> idArray) {
 
     }
 

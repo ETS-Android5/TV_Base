@@ -2,13 +2,15 @@ package com.a7apps.tvbase.ui.movies.tabs;
 
 import android.os.Bundle;
 import android.widget.ProgressBar;
+import android.widget.Toast;
 import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import androidx.recyclerview.widget.RecyclerView;
 import com.a7apps.tvbase.R;
-import com.a7apps.tvbase.adapter.RVAdap;
+import com.a7apps.tvbase.adapter.RVAdapLists;
+import com.a7apps.tvbase.assistant.Constants;
 import com.a7apps.tvbase.data.DataWatch;
 
 public class WatchedMoviesFrag extends Fragment {
@@ -16,9 +18,9 @@ public class WatchedMoviesFrag extends Fragment {
     private static final String ARG_PARAM2 = "param2";
 
     private RecyclerView recyclerView;
-    private ProgressBar progressBar;
+    private ProgressBar progress;
     private DataWatch dataWatch;
-    private RVAdap rvAdap;
+    private RVAdapLists adapLists;
     public WatchedMoviesFrag() {
         // Required empty public constructor
     }
@@ -42,8 +44,31 @@ public class WatchedMoviesFrag extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view =  inflater.inflate(R.layout.fragment_watched_movies, container, false);
-        progressBar = view.findViewById(R.id.pbWatchedMovies);
+        progress = view.findViewById(R.id.pbWatchedMovies);
         recyclerView = view.findViewById(R.id.rvWatchedMovies);
+
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                dataWatch = new DataWatch(getActivity().getApplicationContext());
+                dataWatch.initWatchedMovies();
+                adapLists = new RVAdapLists(getActivity().getApplicationContext(),getParentFragmentManager(),Constants.TYPE_MOVIES,
+                        dataWatch.getListWatchedMovies(), dataWatch.getIdWatchedMovies());
+                adapLists.notifyDataSetChanged();
+                try {
+                    Thread.sleep(300);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                getActivity().runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        recyclerView.setAdapter(adapLists);
+                        progress.setVisibility(View.INVISIBLE);
+                    }
+                });
+            }
+        }).start();
 
         return view;
     }

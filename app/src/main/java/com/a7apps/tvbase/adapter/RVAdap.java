@@ -63,7 +63,9 @@ public class RVAdap extends RecyclerView.Adapter<RVAdap.HolderAdapRV>{
     public void onBindViewHolder(@NonNull HolderAdapRV holder, int position) {
         Glide.with(context).load(Constants.getIMAGE_URL()+ posterArray.get(position)).
                 diskCacheStrategy(DiskCacheStrategy.ALL).into(holder.imageView);
+
         modUi(holder.ivItemWatchlist, holder.ivItemWatched, position);
+
         holder.button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

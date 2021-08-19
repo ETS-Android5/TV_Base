@@ -4,6 +4,8 @@
 package com.a7apps.tvbase.data;
 
 import android.content.Context;
+import com.a7apps.tvbase.assistant.Constants;
+import com.a7apps.tvbase.connection.Connection;
 import com.a7apps.tvbase.database.DatabaseHelper;
 
 import java.util.ArrayList;
@@ -14,9 +16,44 @@ public class DataWatch {
     private ArrayList<String> listWatchedMovies = new ArrayList<>();
     private ArrayList<String> listWatchlistSeries = new ArrayList<>();
     private ArrayList<String> listWatchedSeries = new ArrayList<>();
-    private DatabaseHelper databaseHelper;
+    private ArrayList<String> idWatchlistMovies = new ArrayList<>();
+    private ArrayList<String> idWatchedMovies = new ArrayList<>();
+    private ArrayList<String> idWatchlistSeries = new ArrayList<>();
+    private ArrayList<String> idWatchedSeries = new ArrayList<>();
+    private Connection connection;
+    private HomeData homeData;
 
     public DataWatch(Context context) {
         this.context = context;
+        connection = new Connection(context);
+        homeData = new HomeData(context);
+
+    }
+
+    public void initWatchedMovies(){
+        for (int i = 0; i < homeData.getWatchedMovies().size(); i++){
+            connection.thirdRequest(Constants.movieById(homeData.getWatchedMovies().get(i)), listWatchedMovies, idWatchedMovies);
+        }
+    }
+    public void initWatchlistMovies(){
+        for (int i = 0; i < homeData.getWatchlistMovies().size(); i++){
+            connection.thirdRequest(Constants.movieById(homeData.getWatchlistMovies().get(i)),listWatchlistMovies, idWatchlistMovies);
+        }
+    }
+
+    public ArrayList<String> getListWatchedMovies() {
+        return listWatchedMovies;
+    }
+
+    public ArrayList<String> getIdWatchedMovies() {
+        return idWatchedMovies;
+    }
+
+    public ArrayList<String> getListWatchlistMovies() {
+        return listWatchlistMovies;
+    }
+
+    public ArrayList<String> getIdWatchlistMovies() {
+        return idWatchlistMovies;
     }
 }
