@@ -1,3 +1,4 @@
+//Talvez mudar o nome desse package para common (se possivel)
 package com.a7apps.tvbase.assistant;
 
 import android.content.Context;

@@ -7,7 +7,6 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.viewpager2.widget.ViewPager2;
-import com.a7apps.tvbase.MainActivity;
 import com.a7apps.tvbase.R;
 import com.a7apps.tvbase.adapter.TabAdapMovies;
 import com.google.android.material.tabs.TabLayout;

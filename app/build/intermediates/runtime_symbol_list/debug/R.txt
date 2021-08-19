@@ -1778,6 +1778,7 @@ int drawable side_nav_bar 0x7f070098
 int drawable test_custom_background 0x7f070099
 int drawable tooltip_frame_dark 0x7f07009a
 int drawable tooltip_frame_light 0x7f07009b
+int drawable x_remove 0x7f0700a1
 int id ALT 0x7f080000
 int id BOTTOM_END 0x7f080001
 int id BOTTOM_START 0x7f080002
@@ -1868,9 +1869,11 @@ int id beginning 0x7f080056
 int id blocking 0x7f080057
 int id bottom 0x7f080058
 int id bounce 0x7f080059
-int id btnAddCustomList 0x7f0801c7
 int id btnAddWatched 0x7f0801d1
 int id btnAddWatchlist 0x7f0801d2
+int id btnItemRV 0x7f0801d8
+int id btnRemWatched 0x7f0801d9
+int id btnRemWatchlist 0x7f0801da
 int id buttonPanel 0x7f08005a
 int id cache_measures 0x7f08005b
 int id cancel_action 0x7f08005c
@@ -1971,7 +1974,6 @@ int id hideable 0x7f0800ba
 int id home 0x7f0800bb
 int id homeAsUp 0x7f0800bc
 int id honorRequest 0x7f0800bd
-int id ibItemRV 0x7f0801c8
 int id icon 0x7f0800be
 int id icon_group 0x7f0800bf
 int id ifRoom 0x7f0800c0
@@ -2060,7 +2062,6 @@ int id navigation_bar_item_icon_view 0x7f080111
 int id navigation_bar_item_labels_group 0x7f080112
 int id navigation_bar_item_large_label_view 0x7f080113
 int id navigation_bar_item_small_label_view 0x7f080114
-int id navigation_customlists 0x7f080115
 int id navigation_header_container 0x7f080116
 int id navigation_movies 0x7f080117
 int id navigation_search 0x7f080118
@@ -2207,7 +2208,6 @@ int id title 0x7f0801a4
 int id titleDividerNoCustom 0x7f0801a5
 int id title_template 0x7f0801a6
 int id toggle 0x7f0801a7
-int id toolbar2 0x7f0801a8
 int id top 0x7f0801a9
 int id topPanel 0x7f0801aa
 int id touch_outside 0x7f0801ab
@@ -2219,10 +2219,10 @@ int id transition_position 0x7f0801b0
 int id transition_scene_layoutid_cache 0x7f0801b1
 int id transition_transform 0x7f0801b2
 int id triangle 0x7f0801b3
-int id txtAddCustomList 0x7f0801d3
 int id txtAddWatched 0x7f0801d4
 int id txtAddWatchlist 0x7f0801d5
-int id txtEmptyCustomLists 0x7f0801b4
+int id txtRemWatched 0x7f0801db
+int id txtRemWatchlist 0x7f0801dc
 int id unchecked 0x7f0801b5
 int id uniform 0x7f0801b6
 int id unlabeled 0x7f0801b7
@@ -2327,8 +2327,9 @@ int layout design_navigation_menu 0x7f0b0029
 int layout design_navigation_menu_item 0x7f0b002a
 int layout design_text_input_end_icon 0x7f0b002b
 int layout design_text_input_start_icon 0x7f0b002c
-int layout fragment_custom_lists 0x7f0b002d
-int layout fragment_dialog 0x7f0b0086
+int layout dialog_add 0x7f0b0087
+int layout dialog_remove_watched 0x7f0b0088
+int layout dialog_remove_watchlist 0x7f0b0089
 int layout fragment_movies 0x7f0b002e
 int layout fragment_pop_movies 0x7f0b002f
 int layout fragment_pop_series 0x7f0b0030
@@ -2450,7 +2451,6 @@ int string abc_shareactionprovider_share_with 0x7f100018
 int string abc_shareactionprovider_share_with_application 0x7f100019
 int string abc_toolbar_collapse_description 0x7f10001a
 int string action_settings 0x7f10001b
-int string add_customList 0x7f100081
 int string add_watched 0x7f100082
 int string add_watchlist 0x7f100083
 int string app_name 0x7f10001c
@@ -2543,6 +2543,8 @@ int string path_password_eye 0x7f100072
 int string path_password_eye_mask_strike_through 0x7f100073
 int string path_password_eye_mask_visible 0x7f100074
 int string path_password_strike_through 0x7f100075
+int string rem_watched 0x7f100084
+int string rem_watchlist 0x7f100085
 int string search_menu_title 0x7f100076
 int string status_bar_notification_info_overflow 0x7f100077
 int string title_activity_main 0x7f100078

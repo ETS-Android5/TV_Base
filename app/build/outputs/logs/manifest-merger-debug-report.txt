@@ -122,12 +122,12 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/ferna
 		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme
 		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:14:9-40
-activity#com.a7apps.tvbase.MainActivity
+activity#com.a7apps.tvbase.ui.MainActivity
 ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:15:9-23:20
 	android:label
 		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:17:13-45
 	android:name
-		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:16:13-41
+		ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:16:13-44
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /home/fernanda/Área de Trabalho/Programacao/Producao A7/TV_BASE/TVBase/app/src/main/AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN

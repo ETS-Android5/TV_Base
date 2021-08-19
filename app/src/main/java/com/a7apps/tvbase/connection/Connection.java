@@ -25,7 +25,7 @@ public class Connection implements Connect {
     }
 
     @Override
-    public void getPosters(String url, final ArrayList<String> dataArray) {
+    public void primaryRequest(String url, final ArrayList<String> posterArray, final ArrayList<String> idArray) {
         for (int i = 1; i < 4; i++){
             String numPage = String.valueOf(i);
 
@@ -40,8 +40,10 @@ public class Connection implements Connect {
                                     JSONObject res = jsonArray.getJSONObject(i);
 
                                     String posterPath = res.getString("poster_path");
+                                    String id = res.getString("id");
 
-                                    dataArray.add(posterPath);
+                                    posterArray.add(posterPath);
+                                    idArray.add(id);
                                 }
                             } catch (JSONException e) {
                                 e.printStackTrace();
@@ -59,5 +61,20 @@ public class Connection implements Connect {
 
             mQueue.add(request);
         }
+    }
+
+    @Override
+    public void secondRequest(String url, ArrayList<String> posterArray, ArrayList<String> idArray) {
+
+    }
+
+    @Override
+    public void thirdRequest(String url, final ArrayList<String> posterArray) {
+
+    }
+
+    @Override
+    public void fourRequest() {
+
     }
 }

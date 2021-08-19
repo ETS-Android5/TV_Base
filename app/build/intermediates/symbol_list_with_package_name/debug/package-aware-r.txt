@@ -1779,6 +1779,7 @@ drawable side_nav_bar
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable x_remove
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -1869,9 +1870,11 @@ id beginning
 id blocking
 id bottom
 id bounce
-id btnAddCustomList
 id btnAddWatched
 id btnAddWatchlist
+id btnItemRV
+id btnRemWatched
+id btnRemWatchlist
 id buttonPanel
 id cache_measures
 id cancel_action
@@ -1972,7 +1975,6 @@ id hideable
 id home
 id homeAsUp
 id honorRequest
-id ibItemRV
 id icon
 id icon_group
 id ifRoom
@@ -2061,7 +2063,6 @@ id navigation_bar_item_icon_view
 id navigation_bar_item_labels_group
 id navigation_bar_item_large_label_view
 id navigation_bar_item_small_label_view
-id navigation_customlists
 id navigation_header_container
 id navigation_movies
 id navigation_search
@@ -2208,7 +2209,6 @@ id title
 id titleDividerNoCustom
 id title_template
 id toggle
-id toolbar2
 id top
 id topPanel
 id touch_outside
@@ -2220,10 +2220,10 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
-id txtAddCustomList
 id txtAddWatched
 id txtAddWatchlist
-id txtEmptyCustomLists
+id txtRemWatched
+id txtRemWatchlist
 id unchecked
 id uniform
 id unlabeled
@@ -2328,8 +2328,9 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
-layout fragment_custom_lists
-layout fragment_dialog
+layout dialog_add
+layout dialog_remove_watched
+layout dialog_remove_watchlist
 layout fragment_movies
 layout fragment_pop_movies
 layout fragment_pop_series
@@ -2451,7 +2452,6 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string action_settings
-string add_customList
 string add_watched
 string add_watchlist
 string app_name
@@ -2544,6 +2544,8 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string rem_watched
+string rem_watchlist
 string search_menu_title
 string status_bar_notification_info_overflow
 string title_activity_main

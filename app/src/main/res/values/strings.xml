@@ -25,6 +25,7 @@
     <string name="watched">WATCHED</string>
     <string name="add_watchlist">Add To Watchlist</string>
     <string name="add_watched">Add To Watched</string>
-    <string name="add_customList">Add To Custom List</string>
+    <string name="rem_watchlist">Remove from Watchlist</string>
+    <string name="rem_watched">Remove from Watched</string>
     <string name="emptyCustomLists">Your custom list is empty</string>
 </resources>

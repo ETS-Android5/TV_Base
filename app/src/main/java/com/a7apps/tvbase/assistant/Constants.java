@@ -32,7 +32,7 @@ public class Constants {
         return BASE_SEARCH_URL;
     }
 
-    public static String searchById(String id){
+    public static String movieById(String id){
         String url = "http://api.themoviedb.org/3/movie/"+id+"?api_key="+API_KEY;
         return url;
     }

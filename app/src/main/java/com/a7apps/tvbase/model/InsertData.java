@@ -1,3 +1,5 @@
+//Criar classe igual essa com métodos de remover. Eliminar este toast quando
+//td estiver pronto.
 package com.a7apps.tvbase.model;
 
 import android.content.Context;
@@ -6,6 +8,7 @@ import com.a7apps.tvbase.database.DatabaseHelper;
 
 public class InsertData {
     private Context context;
+    //Substituir strImage para strId
     private String strImage;
     private DatabaseHelper databaseHelper;
     public InsertData(String strImage, Context context) {

@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import androidx.recyclerview.widget.RecyclerView;
 import com.a7apps.tvbase.R;
-import com.a7apps.tvbase.adapter.AdapRV;
+import com.a7apps.tvbase.adapter.RVAdap;
 import com.a7apps.tvbase.assistant.Constants;
 import com.a7apps.tvbase.data.DataPop;
 
@@ -26,7 +26,7 @@ public class PopSeriesFrag extends Fragment {
 
 
     private RecyclerView recyclerView;
-    private AdapRV adapRV;
+    private RVAdap RVAdap;
     private ProgressBar progress;
     private DataPop dataPop;
 
@@ -71,8 +71,9 @@ public class PopSeriesFrag extends Fragment {
             @Override
             public void run() {
                 dataPop = new DataPop(getActivity().getApplicationContext());
-                adapRV = new AdapRV(getActivity().getApplicationContext(), dataPop.getDataPopSeries(), getParentFragmentManager(), Constants.TYPE_SERIES);
-                adapRV.notifyDataSetChanged();
+                dataPop.initDataSeries();
+                RVAdap = new RVAdap(getActivity().getApplicationContext(), dataPop.getPosterPopSeries(), dataPop.getSeriesId(), getParentFragmentManager(), Constants.TYPE_SERIES);
+                RVAdap.notifyDataSetChanged();
                 try {
                     Thread.sleep(900);
                 } catch (InterruptedException e) {
@@ -81,7 +82,7 @@ public class PopSeriesFrag extends Fragment {
                 getActivity().runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        recyclerView.setAdapter(adapRV);
+                        recyclerView.setAdapter(RVAdap);
                         progress.setVisibility(View.INVISIBLE);
                     }
                 });

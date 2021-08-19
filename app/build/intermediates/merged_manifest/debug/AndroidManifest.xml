@@ -28,7 +28,7 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.a7apps.tvbase.MainActivity"
+            android:name="com.a7apps.tvbase.ui.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

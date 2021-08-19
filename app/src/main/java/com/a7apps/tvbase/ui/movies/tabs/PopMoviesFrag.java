@@ -1,3 +1,4 @@
+//Depois testar remover esse codigo padrão.
 package com.a7apps.tvbase.ui.movies.tabs;
 
 import android.os.Bundle;
@@ -8,7 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import androidx.recyclerview.widget.RecyclerView;
 import com.a7apps.tvbase.R;
-import com.a7apps.tvbase.adapter.AdapRV;
+import com.a7apps.tvbase.adapter.RVAdap;
 import com.a7apps.tvbase.assistant.Constants;
 import com.a7apps.tvbase.data.DataPop;
 
@@ -27,7 +28,7 @@ public class PopMoviesFrag extends Fragment {
     // TODO: Rename and change types of parameters
     private RecyclerView recyclerView;
     private DataPop dataPop;
-    private AdapRV adapRV;
+    private RVAdap RVAdap;
     private ProgressBar progress;
     public PopMoviesFrag() {
         // Required empty public constructor
@@ -42,6 +43,7 @@ public class PopMoviesFrag extends Fragment {
      * @return A new instance of fragment PopMoviesFrag.
      */
     // TODO: Rename and change types and number of parameters
+    //Instância, caso queira usar este Fragment em algum outro lugar
     public static PopMoviesFrag newInstance(String param1, String param2) {
         PopMoviesFrag fragment = new PopMoviesFrag();
         Bundle args = new Bundle();
@@ -70,8 +72,10 @@ public class PopMoviesFrag extends Fragment {
             @Override
             public void run() {
                 dataPop = new DataPop(getActivity().getApplicationContext());
-                adapRV = new AdapRV(getActivity().getApplicationContext(), dataPop.getDataPopMovies(), getParentFragmentManager(), Constants.TYPE_MOVIES);
-                adapRV.notifyDataSetChanged();
+                dataPop.initDataMovies();
+                RVAdap = new RVAdap(getActivity().getApplicationContext(), dataPop.getPosterPopMovies(),
+                        dataPop.getMoviesId(), getParentFragmentManager(), Constants.TYPE_MOVIES);
+                RVAdap.notifyDataSetChanged();
                 try {
                     Thread.sleep(900);
                 } catch (InterruptedException e) {
@@ -80,7 +84,7 @@ public class PopMoviesFrag extends Fragment {
                 getActivity().runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        recyclerView.setAdapter(adapRV);
+                        recyclerView.setAdapter(RVAdap);
                         progress.setVisibility(View.INVISIBLE);
                     }
                 });

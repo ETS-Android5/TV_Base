@@ -14,7 +14,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import androidx.recyclerview.widget.RecyclerView;
 import com.a7apps.tvbase.R;
-import com.a7apps.tvbase.adapter.AdapRV;
+import com.a7apps.tvbase.adapter.RVAdap;
 import com.a7apps.tvbase.assistant.AssistantMethods;
 import com.a7apps.tvbase.assistant.Constants;
 import com.a7apps.tvbase.connection.Connect;
@@ -32,8 +32,9 @@ import java.util.ArrayList;
 public class SearchFragment extends Fragment implements Connect {
     private EditText editText;
     private RecyclerView recyclerView;
-    private AdapRV adapRV;
+    private RVAdap RVAdap;
     private ArrayList<String> arrayPosterPath = new ArrayList<>();
+    private ArrayList<String> arrayId = new ArrayList<>();
     private ArrayList<String> arrayMediaType = new ArrayList<>();
     private RequestQueue mQueue;
     private AssistantMethods assistant;
@@ -69,9 +70,10 @@ public class SearchFragment extends Fragment implements Connect {
                         @Override
                         public void run() {
                             arrayPosterPath.clear();
-                            getPosters(Constants.getBaseSearchUrl()+searchQuery(), arrayPosterPath);
-                            adapRV = new AdapRV(getActivity().getApplicationContext(), arrayPosterPath,getParentFragmentManager(), Constants.TYPE_GENERAL);
-                            adapRV.notifyDataSetChanged();
+                            secondRequest(Constants.getBaseSearchUrl()+searchQuery(), arrayPosterPath, arrayId);
+                            //Aqui ele vai precisar de um arrayTypemedia em vez de Constants.Type_general
+                            RVAdap = new RVAdap(getActivity().getApplicationContext(), arrayPosterPath, arrayId, getParentFragmentManager(), Constants.TYPE_GENERAL);
+                            RVAdap.notifyDataSetChanged();
                             try {
                                 Thread.sleep(300);
                             } catch (InterruptedException e) {
@@ -80,7 +82,7 @@ public class SearchFragment extends Fragment implements Connect {
                             getActivity().runOnUiThread(new Runnable() {
                                 @Override
                                 public void run() {
-                                    recyclerView.setAdapter(adapRV);
+                                    recyclerView.setAdapter(RVAdap);
                                     progress.setVisibility(View.INVISIBLE);
                                 }
                             });
@@ -100,7 +102,12 @@ public class SearchFragment extends Fragment implements Connect {
     }
 
     @Override
-    public void getPosters(String url, ArrayList<String> arrayPosterPath) {
+    public void primaryRequest(String url, ArrayList<String> posterArray, final ArrayList<String> idArray) {
+
+    }
+
+    @Override
+    public void secondRequest(String url, ArrayList<String> posterArray, ArrayList<String> idArray) {
         JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url, null,
                 new Response.Listener<JSONObject>() {
                     @Override
@@ -112,8 +119,10 @@ public class SearchFragment extends Fragment implements Connect {
                                 JSONObject res = jsonArray.getJSONObject(i);
 
                                 String posterPath = res.getString("poster_path");
+                                String id = res.getString("id");
 
-                                arrayPosterPath.add(posterPath);
+                                posterArray.add(posterPath);
+                                idArray.add(id);
                             }
                         } catch (JSONException e) {
                             e.printStackTrace();
@@ -130,5 +139,15 @@ public class SearchFragment extends Fragment implements Connect {
         });
 
         mQueue.add(request);
+    }
+
+    @Override
+    public void thirdRequest(String url, final ArrayList<String> posterArray) {
+
+    }
+
+    @Override
+    public void fourRequest() {
+
     }
 }
