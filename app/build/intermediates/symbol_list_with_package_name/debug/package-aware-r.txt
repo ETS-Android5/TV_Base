@@ -2096,7 +2096,9 @@ id pbFragmentPopMovies
 id pbFragmentPopSeries
 id pbSearch
 id pbWatchedMovies
+id pbWatchedSeries
 id pbWatchlistMovies
+id pbWatchlistSeries
 id peekHeight
 id percent
 id pin
@@ -2119,7 +2121,9 @@ id rvPopMovies
 id rvPopSeries
 id rvSearch
 id rvWatchedMovies
+id rvWatchedSeries
 id rvWatchlistMovies
+id rvWatchlistSeries
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth

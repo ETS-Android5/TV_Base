@@ -40,7 +40,16 @@ public class DataWatch {
             connection.thirdRequest(Constants.movieById(homeData.getWatchlistMovies().get(i)),listWatchlistMovies, idWatchlistMovies);
         }
     }
-
+    public void initWatchedSeries(){
+       for (int i = 0; i < homeData.getWatchedSeries().size(); i++){
+           connection.thirdRequest(Constants.serieById(homeData.getWatchedSeries().get(i)),listWatchedSeries,idWatchedSeries);
+       }
+    }
+    public void initWatchlistSeries(){
+        for (int i = 0; i < homeData.getWatchlistSeries().size(); i++){
+            connection.thirdRequest(Constants.serieById(homeData.getWatchlistSeries().get(i)),listWatchlistSeries,idWatchlistSeries);
+        }
+    }
     public ArrayList<String> getListWatchedMovies() {
         return listWatchedMovies;
     }
@@ -55,5 +64,21 @@ public class DataWatch {
 
     public ArrayList<String> getIdWatchlistMovies() {
         return idWatchlistMovies;
+    }
+
+    public ArrayList<String> getListWatchlistSeries() {
+        return listWatchlistSeries;
+    }
+
+    public ArrayList<String> getListWatchedSeries() {
+        return listWatchedSeries;
+    }
+
+    public ArrayList<String> getIdWatchlistSeries() {
+        return idWatchlistSeries;
+    }
+
+    public ArrayList<String> getIdWatchedSeries() {
+        return idWatchedSeries;
     }
 }

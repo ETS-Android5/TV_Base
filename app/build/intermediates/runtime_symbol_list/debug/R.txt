@@ -2095,7 +2095,9 @@ int id pbFragmentPopMovies 0x7f08012f
 int id pbFragmentPopSeries 0x7f080130
 int id pbSearch 0x7f080131
 int id pbWatchedMovies 0x7f0801e1
+int id pbWatchedSeries 0x7f0801e5
 int id pbWatchlistMovies 0x7f0801e2
+int id pbWatchlistSeries 0x7f0801e6
 int id peekHeight 0x7f080132
 int id percent 0x7f080133
 int id pin 0x7f080134
@@ -2118,7 +2120,9 @@ int id rvPopMovies 0x7f080144
 int id rvPopSeries 0x7f080145
 int id rvSearch 0x7f080146
 int id rvWatchedMovies 0x7f0801e3
+int id rvWatchedSeries 0x7f0801e7
 int id rvWatchlistMovies 0x7f0801e4
+int id rvWatchlistSeries 0x7f0801e8
 int id save_non_transition_alpha 0x7f080147
 int id save_overlay_view 0x7f080148
 int id sawtooth 0x7f080149

@@ -36,4 +36,8 @@ public class Constants {
         String url = "https://api.themoviedb.org/3/movie/"+id+"?api_key="+API_KEY;
         return url;
     }
+    public static String serieById(String id){
+        String url = "https://api.themoviedb.org/3/tv/"+id+"?api_key="+API_KEY;
+        return url;
+    }
 }
