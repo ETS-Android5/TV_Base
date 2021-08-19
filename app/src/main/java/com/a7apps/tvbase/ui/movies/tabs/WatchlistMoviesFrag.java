@@ -2,6 +2,7 @@ package com.a7apps.tvbase.ui.movies.tabs;
 
 import android.os.Bundle;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,6 +13,7 @@ import com.a7apps.tvbase.adapter.RVAdap;
 import com.a7apps.tvbase.adapter.RVAdapLists;
 import com.a7apps.tvbase.assistant.Constants;
 import com.a7apps.tvbase.data.DataWatch;
+import com.a7apps.tvbase.data.HomeData;
 
 public class WatchlistMoviesFrag extends Fragment {
     private static final String ARG_PARAM1 = "param1";
@@ -19,6 +21,7 @@ public class WatchlistMoviesFrag extends Fragment {
 
     private RecyclerView recyclerView;
     private ProgressBar progressBar;
+    private TextView txtwlistM;
     private DataWatch dataWatch;
     private RVAdapLists adapLists;
     public WatchlistMoviesFrag() {
@@ -46,29 +49,35 @@ public class WatchlistMoviesFrag extends Fragment {
        View view = inflater.inflate(R.layout.fragment_watchlist_movies,container,false);
        progressBar = view.findViewById(R.id.pbWatchlistMovies);
        recyclerView = view.findViewById(R.id.rvWatchlistMovies);
-
-       new Thread(new Runnable() {
-           @Override
-           public void run() {
-               dataWatch = new DataWatch(getActivity().getApplicationContext());
-               dataWatch.initWatchlistMovies();
-               adapLists = new RVAdapLists(getActivity().getApplicationContext(),getParentFragmentManager(),
-                       Constants.TYPE_MOVIES, dataWatch.getListWatchlistMovies(), dataWatch.getIdWatchlistMovies());
-               adapLists.notifyDataSetChanged();
-               try {
-                   Thread.sleep(800);
-               } catch (InterruptedException e) {
-                   e.printStackTrace();
-               }
-               getActivity().runOnUiThread(new Runnable() {
-                   @Override
-                   public void run() {
-                       recyclerView.setAdapter(adapLists);
-                       progressBar.setVisibility(View.INVISIBLE);
-                   }
-               });
-           }
-       }).start();
+       txtwlistM = view.findViewById(R.id.txtEmptywlistM);
+        HomeData homeData = new HomeData(getActivity().getApplicationContext());
+        if (homeData.getWatchlistMovies().size() == 0){
+            progressBar.setVisibility(View.INVISIBLE);
+            txtwlistM.setVisibility(View.VISIBLE);
+        }else {
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    dataWatch = new DataWatch(getActivity().getApplicationContext());
+                    dataWatch.initWatchlistMovies();
+                    adapLists = new RVAdapLists(getActivity().getApplicationContext(),getParentFragmentManager(),
+                            Constants.TYPE_MOVIES, dataWatch.getListWatchlistMovies(), dataWatch.getIdWatchlistMovies());
+                    adapLists.notifyDataSetChanged();
+                    try {
+                        Thread.sleep(800);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    getActivity().runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            recyclerView.setAdapter(adapLists);
+                            progressBar.setVisibility(View.INVISIBLE);
+                        }
+                    });
+                }
+            }).start();
+        }
 
        return view;
     }

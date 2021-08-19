@@ -2233,6 +2233,8 @@ int id transition_transform 0x7f0801b2
 int id triangle 0x7f0801b3
 int id txtAddWatched 0x7f0801d4
 int id txtAddWatchlist 0x7f0801d5
+int id txtEmptywedM 0x7f0801e9
+int id txtEmptywlistM 0x7f0801ea
 int id txtRemWatched 0x7f0801db
 int id txtRemWatchlist 0x7f0801dc
 int id unchecked 0x7f0801b5

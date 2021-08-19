@@ -2234,6 +2234,8 @@ id transition_transform
 id triangle
 id txtAddWatched
 id txtAddWatchlist
+id txtEmptywedM
+id txtEmptywlistM
 id txtRemWatched
 id txtRemWatchlist
 id unchecked

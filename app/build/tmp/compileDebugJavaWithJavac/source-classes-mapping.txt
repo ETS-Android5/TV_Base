@@ -1,12 +1,34 @@
+com/a7apps/tvbase/adapter/TabAdapSeries.java
+ com.a7apps.tvbase.adapter.TabAdapSeries
+com/a7apps/tvbase/model/InsertData.java
+ com.a7apps.tvbase.model.InsertData
+com/a7apps/tvbase/assistant/AssistantMethods.java
+ com.a7apps.tvbase.assistant.AssistantMethods
+com/a7apps/tvbase/database/DatabaseHelper.java
+ com.a7apps.tvbase.database.DatabaseHelper
+com/a7apps/tvbase/data/DataPop.java
+ com.a7apps.tvbase.data.DataPop
+com/a7apps/tvbase/connection/Connection.java
+ com.a7apps.tvbase.connection.Connection
+ com.a7apps.tvbase.connection.Connection$1
+ com.a7apps.tvbase.connection.Connection$2
+ com.a7apps.tvbase.connection.Connection$3
+ com.a7apps.tvbase.connection.Connection$4
+com/a7apps/tvbase/connection/Connect.java
+ com.a7apps.tvbase.connection.Connect
+com/a7apps/tvbase/assistant/Constants.java
+ com.a7apps.tvbase.assistant.Constants
+com/a7apps/tvbase/BuildConfig.java
+ com.a7apps.tvbase.BuildConfig
+com/a7apps/tvbase/data/HomeData.java
+ com.a7apps.tvbase.data.HomeData
+com/a7apps/tvbase/adapter/RVAdapSearch.java
+ com.a7apps.tvbase.adapter.RVAdapSearch
 com/a7apps/tvbase/ui/movies/MoviesFragment.java
  com.a7apps.tvbase.ui.movies.MoviesFragment
  com.a7apps.tvbase.ui.movies.MoviesFragment$1
  com.a7apps.tvbase.ui.movies.MoviesFragment$1$1
  com.a7apps.tvbase.ui.movies.MoviesFragment$1$1$1
-com/a7apps/tvbase/model/InsertData.java
- com.a7apps.tvbase.model.InsertData
-com/a7apps/tvbase/assistant/AssistantMethods.java
- com.a7apps.tvbase.assistant.AssistantMethods
 com/a7apps/tvbase/adapter/RVAdapLists.java
  com.a7apps.tvbase.adapter.RVAdapLists
  com.a7apps.tvbase.adapter.RVAdapLists$1
@@ -15,24 +37,29 @@ com/a7apps/tvbase/ui/movies/tabs/PopMoviesFrag.java
  com.a7apps.tvbase.ui.movies.tabs.PopMoviesFrag
  com.a7apps.tvbase.ui.movies.tabs.PopMoviesFrag$1
  com.a7apps.tvbase.ui.movies.tabs.PopMoviesFrag$1$1
-com/a7apps/tvbase/connection/Connection.java
- com.a7apps.tvbase.connection.Connection
- com.a7apps.tvbase.connection.Connection$1
- com.a7apps.tvbase.connection.Connection$2
- com.a7apps.tvbase.connection.Connection$3
- com.a7apps.tvbase.connection.Connection$4
-com/a7apps/tvbase/ui/movies/tabs/WatchlistMoviesFrag.java
- com.a7apps.tvbase.ui.movies.tabs.WatchlistMoviesFrag
- com.a7apps.tvbase.ui.movies.tabs.WatchlistMoviesFrag$1
- com.a7apps.tvbase.ui.movies.tabs.WatchlistMoviesFrag$1$1
+com/a7apps/tvbase/adapter/RVAdap.java
+ com.a7apps.tvbase.adapter.RVAdap
+ com.a7apps.tvbase.adapter.RVAdap$1
+ com.a7apps.tvbase.adapter.RVAdap$HolderAdapRV
+com/a7apps/tvbase/ui/MainActivity.java
+ com.a7apps.tvbase.ui.MainActivity
 com/a7apps/tvbase/data/DataWatch.java
  com.a7apps.tvbase.data.DataWatch
+com/a7apps/tvbase/ui/dialog/DialogRemoveWatchlist.java
+ com.a7apps.tvbase.ui.dialog.DialogRemoveWatchlist
+ com.a7apps.tvbase.ui.dialog.DialogRemoveWatchlist$1
 com/a7apps/tvbase/ui/dialog/DialogAdd.java
  com.a7apps.tvbase.ui.dialog.DialogAdd
  com.a7apps.tvbase.ui.dialog.DialogAdd$1
  com.a7apps.tvbase.ui.dialog.DialogAdd$2
-com/a7apps/tvbase/data/HomeData.java
- com.a7apps.tvbase.data.HomeData
+com/a7apps/tvbase/ui/series/tabs/WatchlistSeriesFrag.java
+ com.a7apps.tvbase.ui.series.tabs.WatchlistSeriesFrag
+ com.a7apps.tvbase.ui.series.tabs.WatchlistSeriesFrag$1
+ com.a7apps.tvbase.ui.series.tabs.WatchlistSeriesFrag$1$1
+com/a7apps/tvbase/ui/series/tabs/PopSeriesFrag.java
+ com.a7apps.tvbase.ui.series.tabs.PopSeriesFrag
+ com.a7apps.tvbase.ui.series.tabs.PopSeriesFrag$1
+ com.a7apps.tvbase.ui.series.tabs.PopSeriesFrag$1$1
 com/a7apps/tvbase/ui/search/SearchFragment.java
  com.a7apps.tvbase.ui.search.SearchFragment
  com.a7apps.tvbase.ui.search.SearchFragment$1
@@ -45,47 +72,20 @@ com/a7apps/tvbase/ui/series/SeriesFragment.java
  com.a7apps.tvbase.ui.series.SeriesFragment$1
  com.a7apps.tvbase.ui.series.SeriesFragment$1$1
  com.a7apps.tvbase.ui.series.SeriesFragment$1$1$1
-com/a7apps/tvbase/database/DatabaseHelper.java
- com.a7apps.tvbase.database.DatabaseHelper
-com/a7apps/tvbase/connection/Connect.java
- com.a7apps.tvbase.connection.Connect
-com/a7apps/tvbase/ui/series/tabs/PopSeriesFrag.java
- com.a7apps.tvbase.ui.series.tabs.PopSeriesFrag
- com.a7apps.tvbase.ui.series.tabs.PopSeriesFrag$1
- com.a7apps.tvbase.ui.series.tabs.PopSeriesFrag$1$1
-com/a7apps/tvbase/assistant/Constants.java
- com.a7apps.tvbase.assistant.Constants
-com/a7apps/tvbase/adapter/RVAdap.java
- com.a7apps.tvbase.adapter.RVAdap
- com.a7apps.tvbase.adapter.RVAdap$1
- com.a7apps.tvbase.adapter.RVAdap$HolderAdapRV
-com/a7apps/tvbase/ui/dialog/DialogRemoveWatchlist.java
- com.a7apps.tvbase.ui.dialog.DialogRemoveWatchlist
- com.a7apps.tvbase.ui.dialog.DialogRemoveWatchlist$1
+com/a7apps/tvbase/ui/series/tabs/WatchedSeriesFrag.java
+ com.a7apps.tvbase.ui.series.tabs.WatchedSeriesFrag
+ com.a7apps.tvbase.ui.series.tabs.WatchedSeriesFrag$1
+ com.a7apps.tvbase.ui.series.tabs.WatchedSeriesFrag$1$1
 com/a7apps/tvbase/ui/dialog/DialogRemoveWatched.java
  com.a7apps.tvbase.ui.dialog.DialogRemoveWatched
  com.a7apps.tvbase.ui.dialog.DialogRemoveWatched$1
 com/a7apps/tvbase/adapter/TabAdapMovies.java
  com.a7apps.tvbase.adapter.TabAdapMovies
-com/a7apps/tvbase/BuildConfig.java
- com.a7apps.tvbase.BuildConfig
-com/a7apps/tvbase/adapter/RVAdapSearch.java
- com.a7apps.tvbase.adapter.RVAdapSearch
-com/a7apps/tvbase/ui/series/tabs/WatchedSeriesFrag.java
- com.a7apps.tvbase.ui.series.tabs.WatchedSeriesFrag
- com.a7apps.tvbase.ui.series.tabs.WatchedSeriesFrag$1
- com.a7apps.tvbase.ui.series.tabs.WatchedSeriesFrag$1$1
 com/a7apps/tvbase/ui/movies/tabs/WatchedMoviesFrag.java
  com.a7apps.tvbase.ui.movies.tabs.WatchedMoviesFrag
  com.a7apps.tvbase.ui.movies.tabs.WatchedMoviesFrag$1
  com.a7apps.tvbase.ui.movies.tabs.WatchedMoviesFrag$1$1
-com/a7apps/tvbase/ui/MainActivity.java
- com.a7apps.tvbase.ui.MainActivity
-com/a7apps/tvbase/data/DataPop.java
- com.a7apps.tvbase.data.DataPop
-com/a7apps/tvbase/ui/series/tabs/WatchlistSeriesFrag.java
- com.a7apps.tvbase.ui.series.tabs.WatchlistSeriesFrag
- com.a7apps.tvbase.ui.series.tabs.WatchlistSeriesFrag$1
- com.a7apps.tvbase.ui.series.tabs.WatchlistSeriesFrag$1$1
-com/a7apps/tvbase/adapter/TabAdapSeries.java
- com.a7apps.tvbase.adapter.TabAdapSeries
+com/a7apps/tvbase/ui/movies/tabs/WatchlistMoviesFrag.java
+ com.a7apps.tvbase.ui.movies.tabs.WatchlistMoviesFrag
+ com.a7apps.tvbase.ui.movies.tabs.WatchlistMoviesFrag$1
+ com.a7apps.tvbase.ui.movies.tabs.WatchlistMoviesFrag$1$1

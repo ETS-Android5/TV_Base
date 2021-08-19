@@ -31,24 +31,39 @@ public class DataWatch {
     }
 
     public void initWatchedMovies(){
-        for (int i = 0; i < homeData.getWatchedMovies().size(); i++){
-            connection.thirdRequest(Constants.movieById(homeData.getWatchedMovies().get(i)), listWatchedMovies, idWatchedMovies);
+        int listSize = homeData.getWatchedMovies().size();
+        if (listSize != 0 ){
+            for (int i = 0; i < listSize; i++){
+                connection.thirdRequest(Constants.movieById(homeData.getWatchedMovies().get(i)), listWatchedMovies, idWatchedMovies);
+            }
         }
     }
     public void initWatchlistMovies(){
-        for (int i = 0; i < homeData.getWatchlistMovies().size(); i++){
-            connection.thirdRequest(Constants.movieById(homeData.getWatchlistMovies().get(i)),listWatchlistMovies, idWatchlistMovies);
+        int listSize = homeData.getWatchlistMovies().size();
+        if (listSize != 0){
+            for (int i = 0; i < listSize; i++){
+                connection.thirdRequest(Constants.movieById(homeData.getWatchlistMovies().get(i)),listWatchlistMovies, idWatchlistMovies);
+            }
         }
+
     }
     public void initWatchedSeries(){
-       for (int i = 0; i < homeData.getWatchedSeries().size(); i++){
-           connection.thirdRequest(Constants.serieById(homeData.getWatchedSeries().get(i)),listWatchedSeries,idWatchedSeries);
-       }
+        int listSize = homeData.getWatchedSeries().size();
+        if (listSize != 0){
+            for (int i = 0; i < listSize; i++){
+                connection.thirdRequest(Constants.serieById(homeData.getWatchedSeries().get(i)),listWatchedSeries,idWatchedSeries);
+            }
+        }
+
     }
     public void initWatchlistSeries(){
-        for (int i = 0; i < homeData.getWatchlistSeries().size(); i++){
-            connection.thirdRequest(Constants.serieById(homeData.getWatchlistSeries().get(i)),listWatchlistSeries,idWatchlistSeries);
+        int listSize = homeData.getWatchlistSeries().size();
+        if (listSize != 0){
+            for (int i = 0; i < listSize; i++){
+                connection.thirdRequest(Constants.serieById(homeData.getWatchlistSeries().get(i)),listWatchlistSeries,idWatchlistSeries);
+            }
         }
+
     }
     public ArrayList<String> getListWatchedMovies() {
         return listWatchedMovies;
