@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import androidx.recyclerview.widget.RecyclerView;
 import com.a7apps.tvbase.R;
 import com.a7apps.tvbase.adapter.RVAdapLists;
+import com.a7apps.tvbase.assistant.AssistantMethods;
 import com.a7apps.tvbase.assistant.Constants;
 import com.a7apps.tvbase.data.DataWatch;
 
@@ -46,6 +47,8 @@ public class WatchedSeriesFrag extends Fragment {
         progressBar = view.findViewById(R.id.pbWatchedSeries);
         recyclerView = view.findViewById(R.id.rvWatchedSeries);
 
+        AssistantMethods methods = new AssistantMethods(getActivity().getApplicationContext());
+        methods.checkDb("SerieWatched");
         new Thread(new Runnable() {
             @Override
             public void run() {

@@ -50,6 +50,7 @@ public class RVAdapLists extends RecyclerView.Adapter<RVAdapLists.HoldAdapLists>
             ivItemWatchlist = itemView.findViewById(R.id.ivItemWatchlistL);
             button = itemView.findViewById(R.id.btnItemRVL);
         }
+
     }
 
     @NonNull
@@ -75,6 +76,7 @@ public class RVAdapLists extends RecyclerView.Adapter<RVAdapLists.HoldAdapLists>
                 if (isWatchedMovies || isWatchedSeries){
                     DialogRemoveWatched dialogRemove = new DialogRemoveWatched(context);
                     dialogRemove.show(manager, "CustomDialog1");
+                    notifyDataSetChanged();
 
                 }else if (isWatchlistMovies || isWatchlistSeries){
                     DialogRemoveWatchlist dRemove = new DialogRemoveWatchlist(context);
@@ -83,7 +85,6 @@ public class RVAdapLists extends RecyclerView.Adapter<RVAdapLists.HoldAdapLists>
                 }
             }
         });
-
     }
 
     @Override

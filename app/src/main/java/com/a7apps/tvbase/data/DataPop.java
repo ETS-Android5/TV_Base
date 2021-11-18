@@ -20,11 +20,27 @@ public class DataPop {
     }
 
     public void initDataMovies(){
-        connection.primaryRequest(Constants.getBaseMovieUrl(), posterPopMovies, moviesId);
+
+            connection.primaryRequest(Constants.getBaseMovieUrl(), posterPopMovies, moviesId);
+            try {
+                Thread.sleep(300);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
+
     }
 
     public void initDataSeries(){
-        connection.primaryRequest(Constants.getBaseTvUrl(), posterPopSeries, seriesId);
+
+            connection.primaryRequest(Constants.getBaseTvUrl(), posterPopSeries, seriesId);
+            try {
+                Thread.sleep(300);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
+
     }
 
     public ArrayList<String> getPosterPopMovies() {

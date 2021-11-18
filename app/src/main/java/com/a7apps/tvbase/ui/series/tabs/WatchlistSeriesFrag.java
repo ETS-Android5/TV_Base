@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import androidx.recyclerview.widget.RecyclerView;
 import com.a7apps.tvbase.R;
 import com.a7apps.tvbase.adapter.RVAdapLists;
+import com.a7apps.tvbase.assistant.AssistantMethods;
 import com.a7apps.tvbase.assistant.Constants;
 import com.a7apps.tvbase.data.DataWatch;
 
@@ -45,6 +46,8 @@ public class WatchlistSeriesFrag extends Fragment {
        View view = inflater.inflate(R.layout.fragment_watchlist_series, container, false);
        progressBar = view.findViewById(R.id.pbWatchlistSeries);
        recyclerView = view.findViewById(R.id.rvWatchlistSeries);
+        AssistantMethods methods = new AssistantMethods(getActivity().getApplicationContext());
+        methods.checkDb("SerieWatchlist");
 
        new Thread(new Runnable() {
            @Override
@@ -52,7 +55,7 @@ public class WatchlistSeriesFrag extends Fragment {
                dataWatch = new DataWatch(getActivity().getApplicationContext());
                dataWatch.initWatchlistSeries();
                adapLists = new RVAdapLists(getActivity().getApplicationContext(),getParentFragmentManager(),
-                       Constants.TYPE_SERIES, dataWatch.getIdWatchlistSeries(), dataWatch.getIdWatchlistSeries());
+                       Constants.TYPE_SERIES, dataWatch.getListWatchlistSeries(), dataWatch.getIdWatchlistSeries());
                adapLists.notifyDataSetChanged();
                try {
                    Thread.sleep(800);

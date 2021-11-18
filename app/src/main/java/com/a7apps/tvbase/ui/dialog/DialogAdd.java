@@ -10,10 +10,14 @@ import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.DialogFragment;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
 import com.a7apps.tvbase.R;
+import com.a7apps.tvbase.adapter.RVAdapLists;
 import com.a7apps.tvbase.assistant.Constants;
 import com.a7apps.tvbase.data.HomeData;
 import com.a7apps.tvbase.model.InsertData;
+import com.a7apps.tvbase.ui.movies.tabs.PopMoviesFrag;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
@@ -90,6 +94,7 @@ public class DialogAdd extends DialogFragment {
      */
     //Aqui o filtro é por watched e watchlist
     public void modifyUi(){
+
         isAdd(position);
         if (isWatchlistMovies || isWatchlistSeries){
             ivWatchlist.setVisibility(View.VISIBLE);
@@ -97,6 +102,7 @@ public class DialogAdd extends DialogFragment {
         if (isWatchedMovies || isWatchedSeries){
             ivWatched.setVisibility(View.VISIBLE);
         }
+
     }
 
     public void isAdd(int position){

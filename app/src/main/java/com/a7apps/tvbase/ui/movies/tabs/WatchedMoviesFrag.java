@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 import androidx.recyclerview.widget.RecyclerView;
 import com.a7apps.tvbase.R;
 import com.a7apps.tvbase.adapter.RVAdapLists;
+import com.a7apps.tvbase.assistant.AssistantMethods;
 import com.a7apps.tvbase.assistant.Constants;
 import com.a7apps.tvbase.data.DataWatch;
 import com.a7apps.tvbase.data.HomeData;
@@ -50,11 +51,9 @@ public class WatchedMoviesFrag extends Fragment {
         progress = view.findViewById(R.id.pbWatchedMovies);
         recyclerView = view.findViewById(R.id.rvWatchedMovies);
         txtwedMovies = view.findViewById(R.id.txtEmptywedM);
-        HomeData homeData = new HomeData(getActivity().getApplicationContext());
-        if (homeData.getWatchedMovies().size() == 0){
-            progress.setVisibility(View.INVISIBLE);
-            txtwedMovies.setVisibility(View.VISIBLE);
-        }else {
+        AssistantMethods methods = new AssistantMethods(getActivity().getApplicationContext());
+        methods.checkDb("MovieWatched");
+
             new Thread(new Runnable() {
                 @Override
                 public void run() {
@@ -77,7 +76,6 @@ public class WatchedMoviesFrag extends Fragment {
                     });
                 }
             }).start();
-        }
 
         return view;
     }

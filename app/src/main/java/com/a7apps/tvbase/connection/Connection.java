@@ -25,7 +25,6 @@ public class Connection implements Connect {
     private Context context;
     private RequestQueue mQueue;
     private AssistantMethods assistant;
-    //private String urlId = "https://api.themoviedb.org/3/movie/11873?api_key=8c192694ea899ac35ead1ae82c4d2cda";
 
     public Connection(Context context) {
         this.context = context;
@@ -106,49 +105,6 @@ public class Connection implements Connect {
     @Override
     public void fourRequest() {
 
-    }
-
-    public String getDados(String urlId){
-        BufferedReader bufferedReader = null;
-
-        try {
-            URL url = new URL(urlId);
-            HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
-
-            StringBuilder stringBuilder = new StringBuilder();
-            bufferedReader = new BufferedReader(new InputStreamReader(httpURLConnection.getInputStream()));
-
-            String linha;
-
-            while ((linha = bufferedReader.readLine()) != null){
-                stringBuilder.append(linha+"\n");
-            }
-            return stringBuilder.toString();
-
-        }catch (Exception e){
-            e.printStackTrace();
-            return null;
-        }finally {
-            if (bufferedReader != null){
-                try {
-                    bufferedReader.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
-        }
-    }
-
-    public void jsonDados(String urlId, ArrayList<String> posterArray, ArrayList<String> idArray){
-        try {
-            JSONObject jsonObject = new JSONObject(getDados(urlId));
-            String poster = jsonObject.getString("poster_path");
-            String id = jsonObject.getString("id");
-            posterArray.add(poster);
-            idArray.add(id);
-        }catch (Exception e){
-            e.printStackTrace();
-        }
     }
 
 }

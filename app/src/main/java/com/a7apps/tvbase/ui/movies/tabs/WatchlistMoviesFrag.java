@@ -1,6 +1,7 @@
 package com.a7apps.tvbase.ui.movies.tabs;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import androidx.fragment.app.Fragment;
@@ -11,6 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.a7apps.tvbase.R;
 import com.a7apps.tvbase.adapter.RVAdap;
 import com.a7apps.tvbase.adapter.RVAdapLists;
+import com.a7apps.tvbase.assistant.AssistantMethods;
 import com.a7apps.tvbase.assistant.Constants;
 import com.a7apps.tvbase.data.DataWatch;
 import com.a7apps.tvbase.data.HomeData;
@@ -50,35 +52,37 @@ public class WatchlistMoviesFrag extends Fragment {
        progressBar = view.findViewById(R.id.pbWatchlistMovies);
        recyclerView = view.findViewById(R.id.rvWatchlistMovies);
        txtwlistM = view.findViewById(R.id.txtEmptywlistM);
-        HomeData homeData = new HomeData(getActivity().getApplicationContext());
-        if (homeData.getWatchlistMovies().size() == 0){
-            progressBar.setVisibility(View.INVISIBLE);
-            txtwlistM.setVisibility(View.VISIBLE);
-        }else {
-            new Thread(new Runnable() {
-                @Override
-                public void run() {
-                    dataWatch = new DataWatch(getActivity().getApplicationContext());
-                    dataWatch.initWatchlistMovies();
-                    adapLists = new RVAdapLists(getActivity().getApplicationContext(),getParentFragmentManager(),
-                            Constants.TYPE_MOVIES, dataWatch.getListWatchlistMovies(), dataWatch.getIdWatchlistMovies());
-                    adapLists.notifyDataSetChanged();
-                    try {
-                        Thread.sleep(800);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
-                    getActivity().runOnUiThread(new Runnable() {
-                        @Override
-                        public void run() {
-                            recyclerView.setAdapter(adapLists);
-                            progressBar.setVisibility(View.INVISIBLE);
-                        }
-                    });
-                }
-            }).start();
-        }
+        AssistantMethods methods = new AssistantMethods(getActivity().getApplicationContext());
+        methods.checkDb("MovieWatchlist");
+
+            teste();
 
        return view;
+    }
+
+    public void teste(){
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                dataWatch = new DataWatch(getActivity().getApplicationContext());
+                dataWatch.initWatchlistMovies();
+                adapLists = new RVAdapLists(getActivity().getApplicationContext(),getParentFragmentManager(),
+                        Constants.TYPE_MOVIES, dataWatch.getListWatchlistMovies(), dataWatch.getIdWatchlistMovies());
+                adapLists.notifyDataSetChanged();
+                try {
+                    Thread.sleep(800);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                getActivity().runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        txtwlistM.setVisibility(View.INVISIBLE);
+                        recyclerView.setAdapter(adapLists);
+                        progressBar.setVisibility(View.INVISIBLE);
+                    }
+                });
+            }
+        }).start();
     }
 }

@@ -37,6 +37,11 @@ public class DataWatch {
                 connection.thirdRequest(Constants.movieById(homeData.getWatchedMovies().get(i)), listWatchedMovies, idWatchedMovies);
             }
         }
+        try {
+            Thread.sleep(200);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
     public void initWatchlistMovies(){
         int listSize = homeData.getWatchlistMovies().size();
@@ -44,6 +49,11 @@ public class DataWatch {
             for (int i = 0; i < listSize; i++){
                 connection.thirdRequest(Constants.movieById(homeData.getWatchlistMovies().get(i)),listWatchlistMovies, idWatchlistMovies);
             }
+        }
+        try {
+            Thread.sleep(200);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
 
     }
@@ -54,6 +64,11 @@ public class DataWatch {
                 connection.thirdRequest(Constants.serieById(homeData.getWatchedSeries().get(i)),listWatchedSeries,idWatchedSeries);
             }
         }
+        try {
+            Thread.sleep(200);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
     }
     public void initWatchlistSeries(){
@@ -62,6 +77,11 @@ public class DataWatch {
             for (int i = 0; i < listSize; i++){
                 connection.thirdRequest(Constants.serieById(homeData.getWatchlistSeries().get(i)),listWatchlistSeries,idWatchlistSeries);
             }
+        }
+        try {
+            Thread.sleep(200);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
 
     }
